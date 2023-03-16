@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecturalPattern.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecturalPattern.Application", "CleanArchitecturalPattern.Application\CleanArchitecturalPattern.Application.csproj", "{67CDB24E-5042-47B9-912B-C91B3DAF119C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecturalPattern.Domain", "CleanArchitecturalPattern.Domain\CleanArchitecturalPattern.Domain.csproj", "{3B46A25C-DFBB-4F8D-89CC-8A819ABBB773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{67CDB24E-5042-47B9-912B-C91B3DAF119C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67CDB24E-5042-47B9-912B-C91B3DAF119C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67CDB24E-5042-47B9-912B-C91B3DAF119C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B46A25C-DFBB-4F8D-89CC-8A819ABBB773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B46A25C-DFBB-4F8D-89CC-8A819ABBB773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B46A25C-DFBB-4F8D-89CC-8A819ABBB773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B46A25C-DFBB-4F8D-89CC-8A819ABBB773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

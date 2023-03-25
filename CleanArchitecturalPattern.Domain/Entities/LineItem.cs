@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Domain.Entities
 {
-    internal class LineItem
+    public class LineItem
     {
+
     }
 }

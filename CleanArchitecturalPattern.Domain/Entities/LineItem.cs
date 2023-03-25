@@ -8,6 +8,6 @@ namespace CleanArchitecturalPattern.Domain.Entities
 {
     public class LineItem
     {
-
+        public Guid Id { get; set; }
     }
 }

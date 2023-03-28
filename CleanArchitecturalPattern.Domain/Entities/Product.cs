@@ -13,6 +13,7 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public string ProductSKU { get; set; }
         public string? ProductDescription { get; set; }
         public decimal ProductPrice { get; set; }
+        public string? Vendor { get; set; }
 
     }
 }

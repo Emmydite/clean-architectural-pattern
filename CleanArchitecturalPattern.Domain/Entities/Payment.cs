@@ -9,5 +9,6 @@ namespace CleanArchitecturalPattern.Domain.Entities
     public class Payment
     {
         public int Id { get; set; }
+        public Guid CustomerId { get; set; }
     }
 }

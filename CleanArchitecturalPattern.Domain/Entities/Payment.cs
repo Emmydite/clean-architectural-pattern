@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Domain.Entities
 {
-    internal class Payment
+    public class Payment
     {
     }
 }

@@ -12,5 +12,6 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public Guid OrderId { get; set; }
         public Guid ProductId { get; set; }
         public int quantity { get; set; }
+        public Product product { get; set; }
     }
 }

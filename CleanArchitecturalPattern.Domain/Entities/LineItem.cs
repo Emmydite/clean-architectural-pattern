@@ -13,5 +13,10 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public Guid ProductId { get; set; }
         public int quantity { get; set; }
         public Product product { get; set; }
+
+        public decimal TotalPrice()
+        {
+            return product.Price * quantity;
+        }
     }
 }

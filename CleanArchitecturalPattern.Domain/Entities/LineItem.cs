@@ -16,7 +16,7 @@ namespace CleanArchitecturalPattern.Domain.Entities
 
         public decimal TotalPrice()
         {
-            return product.Price * quantity;
+            return product.Price * Quantity;
         }
     }
 }

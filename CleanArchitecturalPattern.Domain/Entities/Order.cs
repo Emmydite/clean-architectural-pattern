@@ -18,6 +18,7 @@ namespace CleanArchitecturalPattern.Domain.Entities
 
         public Order()
         {
+            Items = new List<Order>();
 
         }
     }

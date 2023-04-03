@@ -12,5 +12,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
         { 
 
         }
+
+
     }
 }

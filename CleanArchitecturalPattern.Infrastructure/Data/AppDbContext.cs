@@ -8,5 +8,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
 {
     public class AppDbContext
     {
+        public AppDbContext() 
+        { 
+
+        }
     }
 }

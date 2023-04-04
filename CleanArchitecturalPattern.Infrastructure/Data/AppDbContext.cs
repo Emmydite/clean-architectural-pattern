@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CleanArchitecturalPattern.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) 
                            : base(options) { }
 
-
+        public DbSet<Customer> Customers { get; set; }
     }
 }

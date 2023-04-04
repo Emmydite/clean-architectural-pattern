@@ -14,5 +14,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
                            : base(options) { }
 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Product>  Products { get; set; }
     }
 }

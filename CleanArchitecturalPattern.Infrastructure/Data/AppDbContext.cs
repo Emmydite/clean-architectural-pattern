@@ -18,5 +18,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<LineItem> LineItems { get; set; }
         public DbSet<Payment> Payments { get; set; }
+
+
     }
 }

@@ -19,6 +19,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
         public DbSet<LineItem> LineItems { get; set; }
         public DbSet<Payment> Payments { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
 
+        }
     }
 }

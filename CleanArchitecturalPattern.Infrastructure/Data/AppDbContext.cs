@@ -21,7 +21,8 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<Order>()
+                .HasMany(o => o.Items)
         }
     }
 }

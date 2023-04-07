@@ -24,6 +24,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
             modelBuilder.Entity<Order>()
                 .HasMany(o => o.Items)
                 .WithOne(e => e.Order)
+                .HasForeignKey(e => e.OrderId);
         }
     }
 }

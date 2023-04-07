@@ -13,7 +13,7 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public Guid ProductId { get; set; }
         public int Quantity { get; set; }
         public Product product { get; set; }
-
+        public virtual Order Order { get; set; }
         public decimal TotalPrice()
         {
             return product.Price * Quantity;

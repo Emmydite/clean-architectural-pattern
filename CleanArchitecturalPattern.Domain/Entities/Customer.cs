@@ -18,5 +18,6 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public string Postcode { get; set; }
         public string? City { get; set; }
         public string Country { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }

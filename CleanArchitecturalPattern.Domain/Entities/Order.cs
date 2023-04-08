@@ -15,6 +15,7 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public DateTime? OrderShippedDate { get; set; }
         public int Status { get;}
         public List<LineItem> Items { get; set; }
+        public Customer Customer { get; set; }
 
         public Order()
         {

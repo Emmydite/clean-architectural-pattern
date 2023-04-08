@@ -28,6 +28,8 @@ namespace CleanArchitecturalPattern.Infrastructure.Data
 
             modelBuilder.Entity<Customer>()
                 .HasMany(e => e.Orders)
+                .WithOne(e => e.Customer)
+                .HasForeignKey(o => o.CustomerId);
         }
     }
 }

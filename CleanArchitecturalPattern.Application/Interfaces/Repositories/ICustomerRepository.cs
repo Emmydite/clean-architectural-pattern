@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
-    internal interface ICustomerRepository
+    public interface ICustomerRepository
     {
+
     }
 }

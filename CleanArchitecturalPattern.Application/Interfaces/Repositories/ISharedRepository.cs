@@ -10,5 +10,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
     {
         Task AddAsync(T entity);
         Task UpdateAsync(T entity);
+        Task DeleteAsync(T entity);
     }
 }

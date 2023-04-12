@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
-    internal interface ISharedRepository
+    public interface ISharedRepository
     {
     }
 }

@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
     public interface ISharedRepository<T> where T : class
     {
         Task AddAsync(T entity);
-
+        Task UpdateAsync(T entity);
     }
 }

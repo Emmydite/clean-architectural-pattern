@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
     {
         Task AddAsync(T entity);
         Task UpdateAsync(T entity);
-        Task DeleteAsync(T entity);
+        void DeleteAsync(T entity);
         Task<IEnumerable<T>> GetAllAsync();
         Task<T> GetByIdAsync(Guid id);
         Task SaveChanges();

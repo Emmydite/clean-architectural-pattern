@@ -12,5 +12,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
         Task<IEnumerable<T>> GetAllAsync();
+        Task<T> GetByIdAsync(Guid id);
     }
 }

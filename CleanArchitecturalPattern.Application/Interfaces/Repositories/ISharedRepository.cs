@@ -13,6 +13,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
         void Delete(T entity);
         Task<IEnumerable<T>> GetAllAsync();
         Task<T> GetByIdAsync(Guid id);
-        Task SaveChanges();
+        Task<bool> SaveChanges();
     }
 }

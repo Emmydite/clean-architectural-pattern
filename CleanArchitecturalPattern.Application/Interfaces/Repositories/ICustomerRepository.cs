@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
     public interface ICustomerRepository : ISharedRepository<Customer>
     {
-        Task<IEnumerable<Order>> GetCustomerOrdersById(int customerId);
+        Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId);
     }
 }

@@ -9,5 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
     public interface IProductRepository : ISharedRepository<Product>
     {
+        Task<IEnumerable<Product>> GetProductsById();
     }
 }

@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
     public interface IPaymentRepository : ISharedRepository<Payment>
     {
-        Task<Payment> GetPaymentByOrderId();
+        Task<Payment> GetPaymentByOrderId(Guid orderId);
     }
 }

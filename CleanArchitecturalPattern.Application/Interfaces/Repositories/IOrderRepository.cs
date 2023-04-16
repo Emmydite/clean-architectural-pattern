@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
-    public interface IOrderRepository
+    public interface IOrderRepository : ISharedRepository
     {
         Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId);
     }

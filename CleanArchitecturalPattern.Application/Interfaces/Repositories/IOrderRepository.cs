@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CleanArchitecturalPattern.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
     public interface IOrderRepository
     {
+        Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId);
     }
 }

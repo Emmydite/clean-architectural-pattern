@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
-    public interface ILineItemRepository
+    public interface ILineItemRepository : ISharedRepository
     {
     }
 }

@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Repositories
 {
     public interface ILineItemRepository : ISharedRepository<LineItem>
     {
-        Task<IEnumerable<LineItem>> GetLineItemsByProductId();
+        Task<IEnumerable<LineItem>> GetLineItemsByProductId(Guid productId);
     }
 }

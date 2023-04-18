@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
-    internal interface ICustomerService
+    public interface ICustomerService
     {
     }
 }

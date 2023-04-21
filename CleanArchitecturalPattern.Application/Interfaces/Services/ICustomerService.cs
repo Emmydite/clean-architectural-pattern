@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface ICustomerService
     {
-        Customer AddCustomer(Customer customer);
+        Task<Customer> AddCustomer(Customer customer);
     }
 }

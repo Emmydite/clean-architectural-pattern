@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface IProductService
     {
-        Product AddProduct(Product product);
+        Task<Product> AddProduct(Product product);
     }
 }

@@ -10,6 +10,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     public interface IProductService
     {
         Task<Product> AddProduct(Product product);
-        Task<Product> UpdateProduct(Product product);
+        Task<bool> UpdateProduct(Product product);
     }
 }

@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     public interface ICustomerService
     {
         Task<Customer> AddCustomer(Customer customer);
-        void DeleteCustomer(Guid customerId);
+        void DeleteCustomer(Guid id);
         Task<IEnumerable<Customer>> GetAllCustomers();
         Customer GetCustomer(Guid id);
         IEnumerable<Customer> CustomerPayments(Guid id);

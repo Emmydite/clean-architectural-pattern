@@ -11,5 +11,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     {
         Task<Product> AddProduct(Product product);
         Task<bool> UpdateProduct(Product product);
+        Task<bool> DeleteProduct(Product product);
     }
 }

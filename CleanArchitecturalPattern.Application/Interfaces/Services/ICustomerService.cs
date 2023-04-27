@@ -13,7 +13,7 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
         void DeleteCustomer(Guid id);
         Task<bool> UpdateCustomer(Customer customer);
         Task<IEnumerable<Customer>> GetAllCustomers();
-        Customer GetCustomer(Guid id);
+        Task<Customer> GetCustomer(Guid id);
         IEnumerable<Customer> CustomerPayments(Guid id);
     }
 }

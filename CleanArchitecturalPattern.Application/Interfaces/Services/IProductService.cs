@@ -13,5 +13,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
         Task<bool> UpdateProduct(Product product);
         void DeleteProduct(Guid id);
         Task<Product> GetProductById(Guid id);
+        List<Product> GetAllProducts();
     }
 }

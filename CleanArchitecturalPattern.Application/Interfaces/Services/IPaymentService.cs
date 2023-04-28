@@ -9,6 +9,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface IPaymentService
     {
-        Payment AddPayment();
+        Payment AddPayment(Payment payment);
     }
 }

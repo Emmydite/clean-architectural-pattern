@@ -8,5 +8,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface IPaymentService
     {
+
     }
 }

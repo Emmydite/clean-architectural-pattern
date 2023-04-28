@@ -10,5 +10,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     public interface IPaymentService
     {
         Task<Payment> AddPayment(Payment payment);
+        Payment UpdatePayment();
     }
 }

@@ -11,6 +11,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     {
         Task<Payment> AddPayment(Payment payment);
         Task<bool> UpdatePayment(Payment payment);
-        void DeletePayment(int paymentId);
+        void DeletePayment(Guid paymentId);
     }
 }

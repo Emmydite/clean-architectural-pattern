@@ -15,6 +15,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
         Task<Payment> GetPaymentById(Guid paymentId);
         Task<IEnumerable<Payment>> GetAllPayments();
         Task<List<Payment>> GetPaymentsByCustomerId(Guid customerId);
-        Payment GetPaymentsByProductId();
+        Payment GetPaymentsByProductId(Guid paymentId);
     }
 }

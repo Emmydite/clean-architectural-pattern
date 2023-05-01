@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
-    public class SharedRepository
+    public class SharedRepository<TEntity>
     {
+
     }
 }

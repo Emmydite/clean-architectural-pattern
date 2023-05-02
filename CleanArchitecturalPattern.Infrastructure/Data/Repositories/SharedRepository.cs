@@ -14,29 +14,5 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public void Delete(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<TEntity>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<TEntity> GetByIdAsync(Guid id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> UpdateAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

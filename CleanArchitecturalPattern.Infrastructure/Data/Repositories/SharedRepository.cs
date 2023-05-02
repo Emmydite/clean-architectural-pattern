@@ -9,6 +9,10 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class SharedRepository<TEntity> : ISharedRepository<TEntity> where TEntity : class
     {
+        public SharedRepository()
+        {
+
+        }
         public Task AddAsync(TEntity entity)
         {
             throw new NotImplementedException();

@@ -1,4 +1,5 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     public class SharedRepository<TEntity> : ISharedRepository<TEntity> where TEntity : class
     {
         private readonly AppDbContext _appDbContext;
+        private DbSet<TEntity> _entities;
         public SharedRepository()
         {
 

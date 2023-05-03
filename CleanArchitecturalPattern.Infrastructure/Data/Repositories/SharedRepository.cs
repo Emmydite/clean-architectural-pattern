@@ -16,6 +16,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
 
         }
+
         public Task AddAsync(TEntity entity)
         {
             throw new NotImplementedException();

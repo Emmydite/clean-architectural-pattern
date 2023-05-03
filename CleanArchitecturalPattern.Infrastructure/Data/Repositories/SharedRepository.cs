@@ -12,7 +12,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     {
         private readonly AppDbContext _appDbContext;
         private DbSet<TEntity> _entities;
-        public SharedRepository()
+        public SharedRepository(AppDbContext appDbContext)
         {
 
         }

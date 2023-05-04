@@ -18,7 +18,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             _entities = appDbContext.Set<TEntity>();
         }
 
-        public Task AddAsync(TEntity entity)
+        public async Task AddAsync(TEntity entity)
         {
             throw new NotImplementedException();
         }

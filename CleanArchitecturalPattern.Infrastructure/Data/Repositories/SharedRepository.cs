@@ -20,7 +20,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task AddAsync(TEntity entity)
         {
-            _entities.AddAsync(entity);
+            await _entities.AddAsync(entity);
         }
 
     }

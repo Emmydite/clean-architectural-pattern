@@ -14,7 +14,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         private DbSet<TEntity> _entities;
         public SharedRepository(AppDbContext appDbContext)
         {
-
+            _appDbContext= appDbContext;
         }
 
         public Task AddAsync(TEntity entity)

@@ -23,5 +23,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             await _entities.AddAsync(entity);
         }
 
+
     }
 }

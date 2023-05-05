@@ -25,7 +25,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<bool> UpdateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            _entities.Update(entity);
         }
     }
 }

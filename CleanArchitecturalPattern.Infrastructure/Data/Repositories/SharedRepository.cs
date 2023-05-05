@@ -23,7 +23,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             await _entities.AddAsync(entity);
         }
 
-        public async Task<bool> UpdateAsync(TEntity entity)
+        public async Task<bool> Update(TEntity entity)
         {
             _entities.Update(entity);
         }

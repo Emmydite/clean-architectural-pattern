@@ -35,7 +35,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public Task<bool> SaveChanges()
         {
-            throw new NotImplementedException();
+            _appDbContext.SaveChangesAsync();
         }
     }
 }

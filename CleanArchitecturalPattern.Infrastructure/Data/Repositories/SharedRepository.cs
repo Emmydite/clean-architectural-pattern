@@ -32,5 +32,10 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
             _entities.Remove(entity);
         }
+
+        public Task<bool> SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

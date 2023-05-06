@@ -27,5 +27,10 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
             _entities.Update(entity);
         }
+
+        public void Delete(TEntity entity)
+        {
+
+        }
     }
 }

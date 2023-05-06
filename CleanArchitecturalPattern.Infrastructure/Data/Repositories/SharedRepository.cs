@@ -35,7 +35,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<bool> SaveChanges()
         {
-            _appDbContext.SaveChangesAsync();
+           await _appDbContext.SaveChangesAsync();
         }
     }
 }

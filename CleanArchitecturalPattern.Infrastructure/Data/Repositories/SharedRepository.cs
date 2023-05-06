@@ -30,7 +30,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public void Delete(TEntity entity)
         {
-
+            _entities.Remove(entity);
         }
     }
 }

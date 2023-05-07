@@ -33,7 +33,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             _entities.Remove(entity);
         }
 
-        public async Task<bool> SaveChanges()
+        public async Task<int> SaveChanges()
         {
            await _appDbContext.SaveChangesAsync();
         }

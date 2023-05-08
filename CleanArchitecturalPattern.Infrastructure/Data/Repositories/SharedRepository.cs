@@ -38,7 +38,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
            return await _appDbContext.SaveChangesAsync();
         }
 
-        public Task<IEnumerable<TEntity>> GetAllAsync()
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
             return _entities.ToListAsync();
         }

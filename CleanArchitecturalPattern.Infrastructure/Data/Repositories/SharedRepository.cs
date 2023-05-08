@@ -40,7 +40,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return _entities.ToListAsync()
         }
     }
 }

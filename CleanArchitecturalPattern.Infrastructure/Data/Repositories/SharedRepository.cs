@@ -43,7 +43,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             return await _entities.ToListAsync();
         }
 
-        public Task<TEntity> GetByIdAsync(Guid id)
+        public async Task<TEntity> GetByIdAsync(Guid id)
         {
             return _entities.FirstAsync(id);
         }

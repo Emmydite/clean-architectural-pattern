@@ -45,7 +45,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<TEntity> GetByIdAsync(Guid id)
         {
-            return await _entities.FirstAsync(id);
+            return await _entities.FindAsync(id);
         }
     }
 }

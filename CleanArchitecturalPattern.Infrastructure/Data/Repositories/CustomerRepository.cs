@@ -14,5 +14,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
 
         }
+
+
     }
 }

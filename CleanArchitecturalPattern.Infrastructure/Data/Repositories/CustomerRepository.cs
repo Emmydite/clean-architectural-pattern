@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class CustomerRepository : ISharedRepository<Customer>, ICustomerRepository
     {
-        public CustomerRepository()
+        public CustomerRepository(AppDbContext appDbContext) : base(appDbContext)
         {
 
         }

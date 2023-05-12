@@ -15,6 +15,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         }
 
+        public IEnumerable<Customer> GetCustomerByEmail()
+        {
 
+        }
     }
 }

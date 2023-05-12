@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
-    public class CustomerRepository : ISharedRepository<Customer>, ICustomerRepository
+    public class CustomerRepository : SharedRepository<Customer>, ICustomerRepository
     {
         public CustomerRepository(AppDbContext appDbContext) : base(appDbContext)
         {

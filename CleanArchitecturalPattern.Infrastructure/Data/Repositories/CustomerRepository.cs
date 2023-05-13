@@ -15,7 +15,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         }
 
-        public Task<IEnumerable<Customer>> GetCustomerByEmail()
+        public Task<IEnumerable<Customer>> GetCustomerByEmail(string customerEmail)
         {
 
         }

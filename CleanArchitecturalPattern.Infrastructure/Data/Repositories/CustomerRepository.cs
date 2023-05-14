@@ -1,5 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
 using CleanArchitecturalPattern.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
             return await _appDbContext.Customers
                                       .Where(e => e.Email == customerEmail)
-                                      .FirstOrDefault();
+                                      .FirstOrDefaultAsync();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class SharedRepository<TEntity> : ISharedRepository<TEntity> where TEntity : class
     {
-        private readonly AppDbContext _appDbContext;
+        protected readonly AppDbContext _appDbContext;
         private DbSet<TEntity> _entities;
         public SharedRepository(AppDbContext appDbContext)
         {

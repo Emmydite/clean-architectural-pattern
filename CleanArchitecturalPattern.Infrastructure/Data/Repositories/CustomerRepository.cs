@@ -16,7 +16,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         }
 
-        public async Task<IEnumerable<Customer>> GetCustomerByEmail(string customerEmail)
+        public async Task<Customer> GetCustomerByEmail(string customerEmail)
         {
             return await _appDbContext.Customers
                                       .Where(e => e.Email == customerEmail)

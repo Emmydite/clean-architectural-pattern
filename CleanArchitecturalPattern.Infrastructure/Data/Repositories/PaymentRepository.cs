@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
-    public class PaymentRepository : SharedRepository<Payment>
+    public class PaymentRepository : SharedRepository<Payment>, IPaymentRepository
     {
     }
 }

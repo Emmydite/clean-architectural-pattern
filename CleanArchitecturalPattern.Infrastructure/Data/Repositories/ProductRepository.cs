@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
-    public class ProductRepository : SharedRepository<Product>
+    public class ProductRepository : SharedRepository<Product>, IProductRepository
     {
     }
 }

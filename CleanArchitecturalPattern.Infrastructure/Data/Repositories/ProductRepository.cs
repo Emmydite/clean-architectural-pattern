@@ -10,5 +10,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class ProductRepository : SharedRepository<Product>, IProductRepository
     {
+        public ProductRepository()
+        {
+
+        }
     }
 }

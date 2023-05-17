@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class PaymentRepository : SharedRepository<Payment>, IPaymentRepository
     {
-        public PaymentRepository()
+        public PaymentRepository(AppDbContext appDbContext)
         {
 
         }

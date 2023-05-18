@@ -15,6 +15,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         }
 
+        public Task<Payment> GetPaymentByOrderId(Guid orderId)
+        {
 
+        }
     }
 }

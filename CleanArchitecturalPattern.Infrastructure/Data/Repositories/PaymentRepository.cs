@@ -18,7 +18,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<Payment> GetPaymentByOrderId(Guid orderId)
         {
-            var result = await _appDbContext.Payments.Where(e => e.OrderId == orderId).FirstOrDefaultAsync()
+            var result = await _appDbContext.Payments
+                                            .Where(e => e.OrderId == orderId)
+                                            .FirstOrDefaultAsync()
         }
     }
 }

@@ -20,7 +20,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
             var result = await _appDbContext.Payments
                                             .Where(e => e.OrderId == orderId)
-                                            .FirstOrDefaultAsync()
+                                            .FirstOrDefaultAsync();
+
+            return result;
         }
     }
 }

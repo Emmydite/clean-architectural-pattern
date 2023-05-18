@@ -1,5 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
 using CleanArchitecturalPattern.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<Payment> GetPaymentByOrderId(Guid orderId)
         {
-
+            var result = await _appDbContext.Payments.Where(e => e.OrderId == orderId).FirstOrDefaultAsync()
         }
     }
 }

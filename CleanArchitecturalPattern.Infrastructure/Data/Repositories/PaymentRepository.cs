@@ -25,6 +25,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
             return result;
         }
 
+        public Task<IEnumerable<Payment>> GetPaymentsByCustomerId(Guid customerId)
+        {
 
+        }
     }
 }

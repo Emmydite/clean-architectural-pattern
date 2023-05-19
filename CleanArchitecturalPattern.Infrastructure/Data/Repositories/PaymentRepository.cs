@@ -27,7 +27,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public Task<IEnumerable<Payment>> GetPaymentsByCustomerId(Guid customerId)
         {
-            var result = _appDbContext.Payments.Where(e => e.CustomerId == customerId).ToListAsync()
+            var result = _appDbContext.Payments.Where(e => e.CustomerId == customerId).ToListAsync();
         }
     }
 }

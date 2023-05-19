@@ -24,5 +24,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
             return result;
         }
+
+
     }
 }

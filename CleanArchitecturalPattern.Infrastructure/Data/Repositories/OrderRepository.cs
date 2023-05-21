@@ -8,5 +8,9 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class OrderRepository
     {
+        public OrderRepository()
+        {
+
+        }
     }
 }

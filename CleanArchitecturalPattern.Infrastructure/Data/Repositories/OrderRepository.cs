@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class OrderRepository : SharedRepository<Order>
     {
-        public OrderRepository()
+        public OrderRepository(AppDbContext appDbContext)
         {
 
         }

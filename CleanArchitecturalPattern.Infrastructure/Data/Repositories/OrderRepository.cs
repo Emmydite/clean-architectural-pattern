@@ -15,6 +15,8 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         }
 
-
+        public Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId)
+        {
+        }
     }
 }

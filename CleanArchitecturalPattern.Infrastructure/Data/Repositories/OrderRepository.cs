@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
-    public class OrderRepository : SharedRepository<Order>
+    public class OrderRepository : SharedRepository<Order>, IOrderRepository
     {
         public OrderRepository(AppDbContext appDbContext) : base(appDbContext)
         {

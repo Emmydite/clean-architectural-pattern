@@ -17,7 +17,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId)
         {
-            var result = _appDbContext.Orders.Where(e => e.CustomerId == customerId).ToList();
+            var result = await _appDbContext.Orders.Where(e => e.CustomerId == customerId).ToList();
 
             return result;
         }

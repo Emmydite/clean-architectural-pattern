@@ -1,5 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
 using CleanArchitecturalPattern.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId)
         {
-            var result = await _appDbContext.Orders.Where(e => e.CustomerId == customerId).ToList();
+            var result = await _appDbContext.Orders.Where(e => e.CustomerId == customerId).ToListAsync();
 
             return result;
         }

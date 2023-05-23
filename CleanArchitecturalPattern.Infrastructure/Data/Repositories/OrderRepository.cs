@@ -18,6 +18,8 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         public Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId)
         {
             var result = _appDbContext.Orders.Where(e => e.CustomerId == customerId).ToList();
+
+            return result;
         }
     }
 }

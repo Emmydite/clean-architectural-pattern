@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
     public class LineItemRepository : SharedRepository<LineItem>, ILineItemRepository
     {
-        public LineItemRepository(AppDbContext appDbContext)
+        public LineItemRepository(AppDbContext appDbContext) : base(appDbContext)
         {
 
         }

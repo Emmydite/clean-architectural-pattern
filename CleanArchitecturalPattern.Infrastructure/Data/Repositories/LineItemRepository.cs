@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 {
-    public class LineItemRepository : SharedRepository<LineItem>
+    public class LineItemRepository : SharedRepository<LineItem>, ILineItemRepository
     {
         public LineItemRepository()
         {

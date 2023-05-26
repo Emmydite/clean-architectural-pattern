@@ -1,5 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
 using CleanArchitecturalPattern.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public Task<IEnumerable<LineItem>> GetLineItemsByProductId(Guid productId)
         {
-            var result = _appDbContext.LineItems.Where(e => e.ProductId == productId);
+            var result = _appDbContext.LineItems.Where(e => e.ProductId == productId).ToListAsync();
         }
     }
 }

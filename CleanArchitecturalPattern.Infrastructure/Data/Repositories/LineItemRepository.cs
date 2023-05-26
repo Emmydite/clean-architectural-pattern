@@ -14,5 +14,10 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
 
         }
+
+        public Task<IEnumerable<LineItem>> GetLineItemsByProductId(Guid productId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

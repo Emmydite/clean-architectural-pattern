@@ -20,7 +20,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
             var result = _appDbContext.LineItems.Where(e => e.ProductId == productId).ToListAsync();
 
-            return result
+            return result;
         }
     }
 }

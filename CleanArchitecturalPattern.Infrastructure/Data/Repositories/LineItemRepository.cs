@@ -17,7 +17,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public Task<IEnumerable<LineItem>> GetLineItemsByProductId(Guid productId)
         {
-            throw new NotImplementedException();
+            var result = _appDbContext.LineItems.Where(e => e.ProductId == productId);
         }
     }
 }

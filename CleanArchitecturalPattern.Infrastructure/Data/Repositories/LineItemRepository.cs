@@ -18,7 +18,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<IEnumerable<LineItem>> GetLineItemsByProductId(Guid productId)
         {
-            var result = _appDbContext.LineItems.Where(e => e.ProductId == productId).ToListAsync();
+            var result = await _appDbContext.LineItems.Where(e => e.ProductId == productId).ToListAsync();
 
             return result;
         }

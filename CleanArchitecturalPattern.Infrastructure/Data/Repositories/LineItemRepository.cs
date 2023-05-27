@@ -13,7 +13,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     {
         public LineItemRepository(AppDbContext appDbContext) : base(appDbContext)
         {
-
         }
 
         public async Task<IEnumerable<LineItem>> GetLineItemsByProductId(Guid productId)

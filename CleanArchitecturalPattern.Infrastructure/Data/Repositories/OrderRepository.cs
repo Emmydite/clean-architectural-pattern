@@ -13,7 +13,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     {
         public OrderRepository(AppDbContext appDbContext) : base(appDbContext)
         {
-
         }
 
         public async Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId)

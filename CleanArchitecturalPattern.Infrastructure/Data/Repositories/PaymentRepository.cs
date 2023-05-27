@@ -13,7 +13,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     {
         public PaymentRepository(AppDbContext appDbContext) : base(appDbContext)
         {
-
         }
 
         public async Task<Payment> GetPaymentByOrderId(Guid orderId)

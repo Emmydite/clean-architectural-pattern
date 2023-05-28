@@ -17,9 +17,11 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
 
         public async Task<Customer> GetCustomerByEmail(string customerEmail)
         {
-            return await _appDbContext.Customers
+            var result = await _appDbContext.Customers
                                       .Where(e => e.Email == customerEmail)
                                       .FirstOrDefaultAsync();
+
+            return result;
         }
     }
 }

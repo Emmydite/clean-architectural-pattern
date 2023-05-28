@@ -12,7 +12,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     {
         public ProductRepository(AppDbContext appDbContext) : base(appDbContext)
         {
-
         }
     }
 }

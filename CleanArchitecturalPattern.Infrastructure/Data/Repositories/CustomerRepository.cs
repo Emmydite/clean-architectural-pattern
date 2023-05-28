@@ -13,7 +13,6 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
     {
         public CustomerRepository(AppDbContext appDbContext) : base(appDbContext)
         {
-
         }
 
         public async Task<Customer> GetCustomerByEmail(string customerEmail)

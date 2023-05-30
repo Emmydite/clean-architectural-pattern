@@ -12,7 +12,7 @@ namespace CleanArchitecturalPattern.Infrastructure.Data.Repositories
         {
         }
 
-        public async Task<IEnumerable<Order>> GetCustomerOrdersById(Guid customerId)
+        public async Task<Order> GetCustomerOrdersById(Guid customerId)
         {
             var result = await _appDbContext.Orders
                                             .Include(p => p.Items)

@@ -5,6 +5,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface ILineItemService
     {
-        LineItem AddLineItem();
+        LineItem AddLineItem(LineItem lineItem);
     }
 }

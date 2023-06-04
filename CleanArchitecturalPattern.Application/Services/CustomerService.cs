@@ -11,7 +11,7 @@ namespace CleanArchitecturalPattern.Application.Services
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository
-        public CustomerService()
+        public CustomerService(ICustomerRepository customerRepository)
         {
 
         }

@@ -17,9 +17,9 @@ namespace CleanArchitecturalPattern.Application.Services
             _customerRepository = customerRepository;
         }
 
-        public Task<Customer> AddCustomer(Customer customer)
+        public async Task<Customer> AddCustomer(Customer customer)
         {
-
+            
         }
     }
 }

@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             await _customerRepository.AddAsync(customer);
             var result = await _customerRepository.SaveChanges();
-
+            return result;
         }
     }
 }

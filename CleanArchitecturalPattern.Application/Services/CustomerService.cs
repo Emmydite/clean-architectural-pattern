@@ -20,7 +20,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public async Task<int> AddCustomer(Customer customer)
         {
            await _customerRepository.AddAsync(customer);
-           await _customerRepository.SaveChanges();
+          var result = await _customerRepository.SaveChanges();
         }
     }
 }

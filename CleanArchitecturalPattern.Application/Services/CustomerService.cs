@@ -23,5 +23,10 @@ namespace CleanArchitecturalPattern.Application.Services
             var result = await _customerRepository.SaveChanges();
             return result;
         }
+
+        public void DeleteCustomer()
+        {
+
+        }
     }
 }

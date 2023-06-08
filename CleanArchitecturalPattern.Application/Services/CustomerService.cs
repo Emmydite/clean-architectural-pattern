@@ -28,6 +28,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             var customer = _customerRepository.GetByIdAsync(id).GetAwaiter().GetResult();
             _customerRepository.Delete(customer);
+            _customerRepository.SaveChanges();
         }
     }
 }

@@ -24,7 +24,7 @@ namespace CleanArchitecturalPattern.Application.Services
             return result;
         }
 
-        public void DeleteCustomer()
+        public void DeleteCustomer(Guid id)
         {
 
         }

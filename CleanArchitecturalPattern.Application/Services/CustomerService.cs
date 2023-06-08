@@ -26,7 +26,7 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public void DeleteCustomer(Guid id)
         {
-
+            _customerRepository.Delete();
         }
     }
 }

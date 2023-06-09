@@ -34,7 +34,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public async Task<bool> UpdateCustomer(Customer customer)
+        public void UpdateCustomer(Customer customer)
         {
             _customerRepository.Update(customer);
             _customerRepository.SaveChanges();

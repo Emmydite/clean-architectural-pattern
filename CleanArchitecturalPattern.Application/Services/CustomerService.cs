@@ -36,7 +36,7 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public async Task<bool> UpdateCustomer(Customer customer)
         {
-
+            _customerRepository.Update();
         }
     }
 }

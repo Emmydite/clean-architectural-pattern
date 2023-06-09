@@ -34,7 +34,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<bool> UpdateCustomer()
+        public Task<bool> UpdateCustomer(Customer customer)
         {
 
         }

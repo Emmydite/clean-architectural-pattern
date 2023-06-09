@@ -6,7 +6,7 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     {
         Task<int> AddCustomer(Customer customer);
         void DeleteCustomer(Guid id);
-        Task<bool> UpdateCustomer(Customer customer);
+        void UpdateCustomer(Customer customer);
         Task<IEnumerable<Customer>> GetAllCustomers();
         Task<Customer> GetCustomer(Guid id);
         Task<List<Customer>> CustomerPayments(Guid id);

@@ -32,7 +32,6 @@ namespace CleanArchitecturalPattern.Application.Services
                 _customerRepository.Delete(customer);
                 _customerRepository.SaveChanges();
             }
-            
         }
     }
 }

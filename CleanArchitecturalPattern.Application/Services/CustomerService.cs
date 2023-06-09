@@ -33,5 +33,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 _customerRepository.SaveChanges();
             }
         }
+
+        public Task<bool> UpdateCustomer()
+        {
+
+        }
     }
 }

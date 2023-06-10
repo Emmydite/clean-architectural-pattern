@@ -39,5 +39,10 @@ namespace CleanArchitecturalPattern.Application.Services
             _customerRepository.Update(customer);
             _customerRepository.SaveChanges();
         }
+
+        public Task<IEnumerable<Customer>> GetAllCustomers()
+        { 
+
+        }
     }
 }

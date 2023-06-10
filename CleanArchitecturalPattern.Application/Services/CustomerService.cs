@@ -41,8 +41,8 @@ namespace CleanArchitecturalPattern.Application.Services
         }
 
         public Task<IEnumerable<Customer>> GetAllCustomers()
-        { 
-
+        {
+            var result = _customerRepository.GetAllAsync();
         }
     }
 }

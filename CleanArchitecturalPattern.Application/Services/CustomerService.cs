@@ -43,6 +43,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public async Task<IEnumerable<Customer>> GetAllCustomers()
         {
             var customers = await _customerRepository.GetAllAsync();
+            return customers;
         }
     }
 }

@@ -25,9 +25,9 @@ namespace CleanArchitecturalPattern.Application.Services
                 var result = await _customerRepository.SaveChanges();
                 return result;
             }
-            catch ()
+            catch (Exception ex)
             {
-
+                throw ex;
             }
         }
 

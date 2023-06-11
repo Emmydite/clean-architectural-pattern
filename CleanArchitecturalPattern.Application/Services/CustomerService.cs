@@ -36,8 +36,16 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public void UpdateCustomer(Customer customer)
         {
-            _customerRepository.Update(customer);
-            _customerRepository.SaveChanges();
+            try
+            {
+                _customerRepository.Update(customer);
+                _customerRepository.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public async Task<IEnumerable<Customer>> GetAllCustomers()

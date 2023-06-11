@@ -26,12 +26,20 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public void DeleteCustomer(Guid id)
         {
-            var customer = _customerRepository.GetByIdAsync(id).GetAwaiter().GetResult();
-            if (customer != null)
+            try
             {
-                _customerRepository.Delete(customer);
-                _customerRepository.SaveChanges();
+                var customer = _customerRepository.GetByIdAsync(id).GetAwaiter().GetResult();
+                if (customer != null)
+                {
+                    _customerRepository.Delete(customer);
+                    _customerRepository.SaveChanges();
+                }
             }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         public void UpdateCustomer(Customer customer)

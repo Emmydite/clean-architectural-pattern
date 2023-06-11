@@ -19,9 +19,16 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public async Task<int> AddCustomer(Customer customer)
         {
-            await _customerRepository.AddAsync(customer);
-            var result = await _customerRepository.SaveChanges();
-            return result;
+            try
+            {
+                await _customerRepository.AddAsync(customer);
+                var result = await _customerRepository.SaveChanges();
+                return result;
+            }
+            catch ()
+            {
+
+            }
         }
 
         public void DeleteCustomer(Guid id)

@@ -42,8 +42,15 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public async Task<IEnumerable<Customer>> GetAllCustomers()
         {
-            var customers = await _customerRepository.GetAllAsync();
-            return customers;
+            try
+            {
+                var customers = await _customerRepository.GetAllAsync();
+                return customers;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

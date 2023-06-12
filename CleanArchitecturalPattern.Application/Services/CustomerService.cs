@@ -80,6 +80,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
+                var result = _customerRepository.GetByIdAsync()
 
             }
             catch (Exception ex)

@@ -76,7 +76,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<Customer> GetCustomer()
+        public Task<Customer> GetCustomer(Guid id)
         {
 
         }

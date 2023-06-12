@@ -75,5 +75,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public Task<Customer> GetCustomer()
+        {
+
+        }
     }
 }

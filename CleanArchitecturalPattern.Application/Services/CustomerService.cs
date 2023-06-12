@@ -78,7 +78,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<Customer> GetCustomer(Guid id)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

@@ -76,7 +76,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<Customer> GetCustomer(Guid id)
+        public async Task<Customer> GetCustomer(Guid id)
         {
             try
             {

@@ -16,6 +16,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public CustomerService(ICustomerRepository customerRepository, IPaymentRepository paymentRepository)
         {
             _customerRepository = customerRepository;
+            _paymentRepository = paymentRepository;
         }
 
         public async Task<int> AddCustomer(Customer customer)

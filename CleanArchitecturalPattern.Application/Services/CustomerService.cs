@@ -94,7 +94,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public async Task<List<Customer>> CustomerPayments(Guid id)
         {
             var result = await _paymentRepository.GetPaymentsByCustomerId(id);
-
+            result = result.ToList();
             return result;
         }
     }

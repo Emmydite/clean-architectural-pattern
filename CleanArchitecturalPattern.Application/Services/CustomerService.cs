@@ -13,7 +13,7 @@ namespace CleanArchitecturalPattern.Application.Services
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IPaymentRepository _paymentRepository;
-        public CustomerService(ICustomerRepository customerRepository)
+        public CustomerService(ICustomerRepository customerRepository, IPaymentRepository paymentRepository)
         {
             _customerRepository = customerRepository;
         }

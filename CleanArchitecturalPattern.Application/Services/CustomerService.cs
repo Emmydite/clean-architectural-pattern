@@ -94,6 +94,8 @@ namespace CleanArchitecturalPattern.Application.Services
         public Task<List<Customer>> CustomerPayments(Guid id)
         {
             var result = _paymentRepository.GetPaymentsByCustomerId(id);
+
+            return result;
         }
     }
 }

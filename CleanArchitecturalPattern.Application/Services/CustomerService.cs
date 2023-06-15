@@ -88,5 +88,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public Task<List<Customer>> CustomerPayments(Guid id)
+        {
+
+        }
     }
 }

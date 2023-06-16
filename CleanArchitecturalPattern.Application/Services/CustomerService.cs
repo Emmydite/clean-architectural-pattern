@@ -100,7 +100,7 @@ namespace CleanArchitecturalPattern.Application.Services
 
                 return customerPayments;
             }
-            catch ()
+            catch (Exception ex)
             {
 
             }

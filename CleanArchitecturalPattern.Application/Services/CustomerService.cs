@@ -96,6 +96,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var result = await _paymentRepository.GetPaymentsByCustomerId(id);
+
                 var customerPayments = result.ToList();
 
                 return customerPayments;

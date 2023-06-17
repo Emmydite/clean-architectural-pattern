@@ -70,6 +70,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var customers = await _customerRepository.GetAllAsync();
+
                 return customers;
             }
             catch (Exception ex)

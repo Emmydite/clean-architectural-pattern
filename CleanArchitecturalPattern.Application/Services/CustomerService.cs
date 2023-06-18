@@ -99,7 +99,10 @@ namespace CleanArchitecturalPattern.Application.Services
             {
                 var result = await _paymentRepository.GetPaymentsByCustomerId(id);
 
-                var customerPayments = result.ToList();
+                var customerPayments = result.Select(new Customer
+                {
+
+                }).ToList();
 
                 return customerPayments;
             }

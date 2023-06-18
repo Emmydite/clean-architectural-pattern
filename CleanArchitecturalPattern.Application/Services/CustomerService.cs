@@ -103,6 +103,7 @@ namespace CleanArchitecturalPattern.Application.Services
 
                 var customerPayments = result.Select(new Customer
                 {
+                    Id = id,
 
                 }).ToList();
 

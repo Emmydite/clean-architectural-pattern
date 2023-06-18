@@ -101,11 +101,12 @@ namespace CleanArchitecturalPattern.Application.Services
 
                 var customer = await GetCustomer(id);
 
-                var customerPayments = result.Select(new Customer
+                var customerPayments = result.Select(e => new Customer
                 {
                     Id = id,
                     FirstName = customer.FirstName, 
                     LastName = customer.LastName,
+
                 }).ToList();
 
                 return customerPayments;

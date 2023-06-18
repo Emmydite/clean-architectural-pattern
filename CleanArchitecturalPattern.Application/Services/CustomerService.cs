@@ -104,7 +104,8 @@ namespace CleanArchitecturalPattern.Application.Services
                 var customerPayments = result.Select(new Customer
                 {
                     Id = id,
-                    FirstName = customer.FirstName,
+                    FirstName = customer.FirstName, 
+                    LastName = customer.LastName,
                 }).ToList();
 
                 return customerPayments;

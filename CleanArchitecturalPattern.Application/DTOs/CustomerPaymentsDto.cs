@@ -15,6 +15,6 @@ namespace CleanArchitecturalPattern.Application.DTOs
         public string? Email { get; set; }
         public Guid OrderId { get; set; }
         public DateTime PaymentDate { get; set; }
-        
+        public decimal Amount { get; set; }
     }
 }

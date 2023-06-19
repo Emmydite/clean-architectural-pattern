@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CleanArchitecturalPattern.Domain.Entities;
+using CleanArchitecturalPattern.Application.DTOs;
 
 namespace CleanArchitecturalPattern.Application.Services
 {
@@ -101,7 +102,7 @@ namespace CleanArchitecturalPattern.Application.Services
 
                 var customer = await GetCustomer(id);
 
-                var customerPayments = result.Select(e => new Customer
+                var customerPayments = result.Select(e => new CustomerPaymentsDto
                 {
                     Id = id,
                     FirstName = customer.FirstName, 

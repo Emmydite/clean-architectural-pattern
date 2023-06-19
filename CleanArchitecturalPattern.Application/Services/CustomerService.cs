@@ -109,6 +109,7 @@ namespace CleanArchitecturalPattern.Application.Services
                     LastName = customer.LastName,
                     PhoneNumber = customer.PhoneNumber,
                     Email = customer.Email,
+                    OrderId = e.OrderId,
                 }).ToList();
 
                 return customerPayments;

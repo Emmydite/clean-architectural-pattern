@@ -9,5 +9,6 @@ namespace CleanArchitecturalPattern.Application.DTOs
     public class CustomerPaymentsDto
     {
         public Guid CustomerId { get; set; }
+        public string FirstName { get; set; }
     }
 }

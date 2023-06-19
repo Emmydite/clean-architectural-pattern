@@ -104,10 +104,10 @@ namespace CleanArchitecturalPattern.Application.Services
 
                 var customerPayments = result.Select(e => new CustomerPaymentsDto
                 {
-                    Id = id,
+                    CustomerId = id,
                     FirstName = customer.FirstName, 
                     LastName = customer.LastName,
-
+                    PhoneNumber = customer.PhoneNumber,
                 }).ToList();
 
                 return customerPayments;

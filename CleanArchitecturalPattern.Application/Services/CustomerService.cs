@@ -110,6 +110,7 @@ namespace CleanArchitecturalPattern.Application.Services
                     PhoneNumber = customer.PhoneNumber,
                     Email = customer.Email,
                     OrderId = e.OrderId,
+                    PaymentDate = e.PaymentDate
                 }).ToList();
 
                 return customerPayments;

@@ -1,4 +1,5 @@
-﻿using CleanArchitecturalPattern.Domain.Entities;
+﻿using CleanArchitecturalPattern.Application.DTOs;
+using CleanArchitecturalPattern.Domain.Entities;
 
 namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
@@ -9,6 +10,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
         void UpdateCustomer(Customer customer);
         Task<IEnumerable<Customer>> GetAllCustomers();
         Task<Customer> GetCustomer(Guid id);
-        Task<List<Customer>> CustomerPayments(Guid id);
+        Task<List<CustomerPaymentsDto>> CustomerPayments(Guid id);
     }
 }

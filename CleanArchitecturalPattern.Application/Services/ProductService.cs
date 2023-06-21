@@ -11,7 +11,7 @@ namespace CleanArchitecturalPattern.Application.Services
     public class ProductService : IProductService
     {
         public readonly IProductRepository _productRepository;
-        public ProductService()
+        public ProductService(IProductRepository productRepository)
         {
 
         }

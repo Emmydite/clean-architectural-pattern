@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CleanArchitecturalPattern.Domain\CleanArchitecturalPattern.Domain.csproj" />
   </ItemGroup>
 

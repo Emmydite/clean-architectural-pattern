@@ -8,5 +8,9 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class ProductService
     {
+        public ProductService()
+        {
+
+        }
     }
 }

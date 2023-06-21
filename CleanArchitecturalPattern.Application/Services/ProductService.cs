@@ -13,7 +13,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public readonly IProductRepository _productRepository;
         public ProductService(IProductRepository productRepository)
         {
-
+            _productRepository = productRepository;
         }
     }
 }

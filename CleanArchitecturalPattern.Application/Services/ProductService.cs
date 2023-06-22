@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                _productRepository.AddAsync(product);
+               await _productRepository.AddAsync(product);
                var result = _productRepository.SaveChanges();
             }
             catch (Exception ex)

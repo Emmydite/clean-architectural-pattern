@@ -19,7 +19,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<Product> AddProduct(Product product)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

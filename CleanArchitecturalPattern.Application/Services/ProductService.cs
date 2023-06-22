@@ -15,5 +15,10 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             _productRepository = productRepository;
         }
+
+        public Task<Product> AddProduct()
+        {
+
+        }
     }
 }

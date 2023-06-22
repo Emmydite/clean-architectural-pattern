@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                _productRepository.AddAsync(product);
             }
             catch (Exception ex)
             {

@@ -22,7 +22,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 _productRepository.AddAsync(product);
-                _productRepository.SaveChanges();
+               var result = _productRepository.SaveChanges();
             }
             catch (Exception ex)
             {

@@ -17,7 +17,7 @@ namespace CleanArchitecturalPattern.Application.Services
             _productRepository = productRepository;
         }
 
-        public async Task<Product> AddProduct(Product product)
+        public async Task<int> AddProduct(Product product)
         {
             try
             {

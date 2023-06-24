@@ -35,6 +35,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public Task<bool> UpdateProduct(Product product)
         {
             _productRepository.Update(product);
+            _productRepository.SaveChanges();
         }
     }
 }

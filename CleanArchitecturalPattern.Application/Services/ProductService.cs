@@ -32,7 +32,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<bool> UpdateProduct()
+        public Task<bool> UpdateProduct(Product product)
         {
 
         }

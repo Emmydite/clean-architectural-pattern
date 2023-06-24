@@ -31,5 +31,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public Task<bool> UpdateProduct()
+        {
+
+        }
     }
 }

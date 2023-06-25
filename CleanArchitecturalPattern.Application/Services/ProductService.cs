@@ -35,7 +35,7 @@ namespace CleanArchitecturalPattern.Application.Services
         public async Task<bool> UpdateProduct(Product product)
         {
             _productRepository.Update(product);
-            await _productRepository.SaveChanges();
+            var result = await _productRepository.SaveChanges();
         }
     }
 }

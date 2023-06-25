@@ -36,6 +36,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             _productRepository.Update(product);
             var result = await _productRepository.SaveChanges();
+            return result == 1;
         }
     }
 }

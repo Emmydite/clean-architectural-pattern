@@ -41,7 +41,7 @@ namespace CleanArchitecturalPattern.Application.Services
 
                 return result == 1;
             }
-            catch ()
+            catch (Exception ex)
             {
 
             }

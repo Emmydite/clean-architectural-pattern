@@ -46,5 +46,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public void DeleteProduct()
+        {
+
+        }
     }
 }

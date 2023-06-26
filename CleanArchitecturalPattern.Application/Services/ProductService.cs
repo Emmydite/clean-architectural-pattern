@@ -47,7 +47,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public void DeleteProduct()
+        public void DeleteProduct(Guid id)
         {
 
         }

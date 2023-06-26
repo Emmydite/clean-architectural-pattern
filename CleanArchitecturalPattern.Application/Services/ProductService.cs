@@ -49,7 +49,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public void DeleteProduct(Guid id)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

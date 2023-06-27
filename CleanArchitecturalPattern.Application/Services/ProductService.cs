@@ -55,6 +55,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 if (product != null)
                 {
                     _productRepository.Delete(product);
+                    _productRepository.SaveChanges();
                 }
             }
             catch (Exception ex)

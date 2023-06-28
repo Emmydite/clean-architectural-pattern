@@ -66,7 +66,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public async Task<Product> GetProductById(Guid id)
         {
+            try
+            {
 
+            }
+            catch(Exception ex)
+            {
+
+            }
         }
     }
 }

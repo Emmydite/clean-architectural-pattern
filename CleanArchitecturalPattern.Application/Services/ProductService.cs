@@ -64,6 +64,9 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
+        public Task<Product> GetProductById(Guid id)
+        {
 
+        }
     }
 }

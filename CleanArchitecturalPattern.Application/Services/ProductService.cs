@@ -64,7 +64,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<Product> GetProductById(Guid id)
+        public async Task<Product> GetProductById(Guid id)
         {
 
         }

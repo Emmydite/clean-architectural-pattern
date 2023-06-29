@@ -68,7 +68,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var product = _productRepository.GetByIdAsync(id);
+                var product = await _productRepository.GetByIdAsync(id);
             }
             catch(Exception ex)
             {

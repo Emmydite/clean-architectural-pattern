@@ -82,7 +82,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                var products = _productRepository.GetAllAsync()
             }
             catch (Exception ex)
             {

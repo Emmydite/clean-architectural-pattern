@@ -80,7 +80,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public List<Product> GetAllProducts()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

@@ -78,7 +78,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<List<Product>> GetAllProducts()
+        public async Task<List<Product>> GetAllProducts()
         {
             try
             {

@@ -77,5 +77,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public List<Product> GetAllProducts()
+        {
+
+        }
     }
 }

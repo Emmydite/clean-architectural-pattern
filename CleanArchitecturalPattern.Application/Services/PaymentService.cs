@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Services
 {
-    public class PaymentService 
+    public class PaymentService : IPaymentService
     {
         public PaymentService()
         {

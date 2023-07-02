@@ -8,5 +8,9 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class PaymentService
     {
+        public PaymentService()
+        {
+
+        }
     }
 }

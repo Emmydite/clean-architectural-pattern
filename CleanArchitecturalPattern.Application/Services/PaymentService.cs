@@ -10,6 +10,7 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class PaymentService : IPaymentService
     {
+        private readonly IPaymentRepository _paymentRepository;
         public PaymentService()
         {
 

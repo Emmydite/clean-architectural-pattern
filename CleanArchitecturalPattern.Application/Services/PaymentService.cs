@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                _paymentRepository.AddAsync(payment);
             }
             catch (Exception ex)
             {

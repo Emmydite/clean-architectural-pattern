@@ -19,7 +19,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<Payment> AddPayment(Payment payment)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

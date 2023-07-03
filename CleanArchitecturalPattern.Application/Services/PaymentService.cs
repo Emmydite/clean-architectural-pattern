@@ -17,7 +17,7 @@ namespace CleanArchitecturalPattern.Application.Services
             _paymentRepository = paymentRepository;
         }
 
-        public Task<Payment> AddPayment(Payment payment)
+        public async Task<Payment> AddPayment(Payment payment)
         {
             try
             {

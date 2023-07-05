@@ -4,7 +4,7 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface IPaymentService
     {
-        Task<Payment> AddPayment(Payment payment);
+        Task<int> AddPayment(Payment payment);
         Task<bool> UpdatePayment(Payment payment);
         void DeletePayment(Guid paymentId);
         Task<Payment> GetPaymentById(Guid paymentId);

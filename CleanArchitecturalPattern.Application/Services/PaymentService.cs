@@ -36,7 +36,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                _paymentRepository.Update(payment);
             }
             catch (Exception ex)
             {

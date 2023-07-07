@@ -32,7 +32,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<bool> UpdatePayment(Payment payment)
+        public async Task<bool> UpdatePayment(Payment payment)
         {
             try
             {

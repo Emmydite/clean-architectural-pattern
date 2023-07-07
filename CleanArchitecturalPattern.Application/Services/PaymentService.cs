@@ -38,6 +38,7 @@ namespace CleanArchitecturalPattern.Application.Services
             {
                 _paymentRepository.Update(payment);
                 var response = await _paymentRepository.SaveChanges();
+                return response == 1;
             }
             catch (Exception ex)
             {

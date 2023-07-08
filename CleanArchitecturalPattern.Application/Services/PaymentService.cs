@@ -47,6 +47,9 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
+        public void DeletePayment(Guid paymentId)
+        {
 
+        }
     }
 }

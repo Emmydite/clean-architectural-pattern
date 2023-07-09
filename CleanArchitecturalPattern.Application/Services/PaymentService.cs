@@ -21,10 +21,10 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-               await _paymentRepository.AddAsync(payment);
-               var result = await _paymentRepository.SaveChanges();
+                await _paymentRepository.AddAsync(payment);
+                var result = await _paymentRepository.SaveChanges();
 
-               return result;
+                return result;
             }
             catch (Exception ex)
             {
@@ -51,7 +51,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                var payment = _paymentRepository.GetByIdAsync(paymentId)
             }
             catch (Exception ex)
             {

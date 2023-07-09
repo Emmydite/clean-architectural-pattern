@@ -51,7 +51,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var payment = _paymentRepository.GetByIdAsync(paymentId)
+                var payment = _paymentRepository.GetByIdAsync(paymentId).GetAwaiter().GetResult();
             }
             catch (Exception ex)
             {

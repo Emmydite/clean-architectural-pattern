@@ -54,7 +54,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 var payment = _paymentRepository.GetByIdAsync(paymentId).GetAwaiter().GetResult();
                 if (payment != null)
                 {
-                    _paymentRepository.Delete(payment)
+                    _paymentRepository.Delete(payment);
                 }
             }
             catch (Exception ex)

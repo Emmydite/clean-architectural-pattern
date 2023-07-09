@@ -55,6 +55,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 if (payment != null)
                 {
                     _paymentRepository.Delete(payment);
+                    _paymentRepository.SaveChanges();
                 }
             }
             catch (Exception ex)

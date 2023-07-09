@@ -52,6 +52,10 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var payment = _paymentRepository.GetByIdAsync(paymentId).GetAwaiter().GetResult();
+                if (payment != null)
+                {
+
+                }
             }
             catch (Exception ex)
             {

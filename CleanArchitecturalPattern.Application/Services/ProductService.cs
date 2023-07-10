@@ -51,7 +51,9 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var product = _productRepository.GetByIdAsync(id).GetAwaiter().GetResult();
+                var product = _productRepository.GetByIdAsync(id)
+                                                .GetAwaiter()
+                                                .GetResult();
                 if (product != null)
                 {
                     _productRepository.Delete(product);

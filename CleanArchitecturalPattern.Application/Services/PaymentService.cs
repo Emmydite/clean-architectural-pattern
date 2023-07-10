@@ -51,7 +51,9 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var payment = _paymentRepository.GetByIdAsync(paymentId).GetAwaiter().GetResult();
+                var payment = _paymentRepository.GetByIdAsync(paymentId)
+                                                .GetAwaiter()
+                                                .GetResult();
                 if (payment != null)
                 {
                     _paymentRepository.Delete(payment);

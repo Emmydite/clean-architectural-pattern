@@ -38,7 +38,9 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var customer = _customerRepository.GetByIdAsync(id).GetAwaiter().GetResult();
+                var customer = _customerRepository.GetByIdAsync(id)
+                                                  .GetAwaiter()
+                                                  .GetResult();
                 if (customer != null)
                 {
                     _customerRepository.Delete(customer);

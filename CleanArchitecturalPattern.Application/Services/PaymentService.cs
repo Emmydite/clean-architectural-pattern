@@ -66,5 +66,10 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
+        public Task<Payment> GetPaymentById(Guid paymentId)
+        {
+
+        }
+
     }
 }

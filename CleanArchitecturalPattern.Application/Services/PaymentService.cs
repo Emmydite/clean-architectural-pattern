@@ -70,7 +70,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                var payment = _paymentRepository.GetByIdAsync(paymentId);
             }
             catch (Exception ex) 
             {

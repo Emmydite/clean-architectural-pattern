@@ -66,7 +66,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<Payment> GetPaymentById(Guid paymentId)
+        public async Task<Payment> GetPaymentById(Guid paymentId)
         {
             try
             {

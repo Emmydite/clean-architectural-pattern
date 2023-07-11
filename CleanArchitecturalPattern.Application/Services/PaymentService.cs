@@ -71,6 +71,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var payment = await _paymentRepository.GetByIdAsync(paymentId);
+
                 return payment;
             }
             catch (Exception ex) 

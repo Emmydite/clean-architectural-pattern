@@ -84,7 +84,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var payments = _paymentRepository.GetAllAsync();
+                var payments = await _paymentRepository.GetAllAsync();
             }
             catch (Exception ex)
             {

@@ -80,7 +80,7 @@ namespace CleanArchitecturalPattern.Application.Services
             } 
         }
 
-        public Task<IEnumerable<Payment>> GetAllPayments()
+        public async Task<IEnumerable<Payment>> GetAllPayments()
         {
             try
             {

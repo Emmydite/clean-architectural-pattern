@@ -82,7 +82,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<IEnumerable<Payment>> GetAllPayments()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

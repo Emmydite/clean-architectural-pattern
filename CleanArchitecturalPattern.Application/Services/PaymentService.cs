@@ -22,6 +22,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 await _paymentRepository.AddAsync(payment);
+
                 var result = await _paymentRepository.SaveChanges();
 
                 return result;

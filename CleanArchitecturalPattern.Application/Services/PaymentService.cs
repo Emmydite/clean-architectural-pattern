@@ -100,6 +100,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var payments = _paymentRepository.GetPaymentsByCustomerId(customerId);
+
             }
             catch (Exception ex)
             {

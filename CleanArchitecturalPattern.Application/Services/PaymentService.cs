@@ -99,7 +99,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                var payments = _paymentRepository.GetPaymentsByCustomerId();
             }
             catch (Exception ex)
             {

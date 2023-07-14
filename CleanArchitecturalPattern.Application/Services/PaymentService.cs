@@ -100,7 +100,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var payments = await _paymentRepository.GetPaymentsByCustomerId(customerId);
-
+                return payments;
             }
             catch (Exception ex)
             {

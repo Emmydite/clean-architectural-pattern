@@ -95,7 +95,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<List<Payment>> GetPaymentsByCustomerId(Guid customerId)
+        public async Task<List<Payment>> GetPaymentsByCustomerId(Guid customerId)
         {
             try
             {

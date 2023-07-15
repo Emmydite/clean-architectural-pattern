@@ -100,6 +100,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var customerPayments = await _paymentRepository.GetPaymentsByCustomerId(customerId);
+
                 return customerPayments;
             }
             catch (Exception ex)

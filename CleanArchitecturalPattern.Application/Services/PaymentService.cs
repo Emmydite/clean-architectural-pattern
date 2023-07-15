@@ -99,8 +99,8 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var payments = await _paymentRepository.GetPaymentsByCustomerId(customerId);
-                return payments;
+                var customerPayments = await _paymentRepository.GetPaymentsByCustomerId(customerId);
+                return customerPayments;
             }
             catch (Exception ex)
             {

@@ -99,7 +99,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var customerPayments = await _paymentRepository.GetPaymentsByCustomerId(customerId);
+                var paymentsData = await _paymentRepository.GetPaymentsByCustomerId(customerId);
 
                 return customerPayments;
             }

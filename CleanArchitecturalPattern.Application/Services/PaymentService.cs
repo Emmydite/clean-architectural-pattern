@@ -118,7 +118,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
             catch (Exception ex)
             {
-
+                throw ex;
             }
         }
     }

@@ -112,7 +112,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<List<Payment>> GetPaymentsByProductId(Guid paymentId)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

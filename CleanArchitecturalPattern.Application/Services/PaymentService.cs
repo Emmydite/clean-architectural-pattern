@@ -109,5 +109,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public Task<List<Payment>> GetPaymentsByProductId(Guid paymentId)
+        {
+
+        }
     }
 }

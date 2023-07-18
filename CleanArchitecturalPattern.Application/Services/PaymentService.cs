@@ -114,7 +114,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var paymentData = _paymentRepository.GetPaymentByOrderId(orderId);
+                var paymentData = await _paymentRepository.GetPaymentByOrderId(orderId);
                 var orderPayment = 
             }
             catch (Exception ex)

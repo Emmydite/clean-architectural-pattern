@@ -110,7 +110,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public async Task<List<Payment>> GetPaymentsByOrderId(Guid orderId)
+        public async Task<Payment> GetPaymentsByOrderId(Guid orderId)
         {
             try
             {

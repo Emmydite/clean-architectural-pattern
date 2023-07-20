@@ -13,7 +13,7 @@ namespace CleanArchitecturalPattern.Application.Services
         private readonly ILineItemRepository _lineItemRepository;
         public LineItemService(ILineItemRepository lineItemRepository)
         {
-            
+            _lineItemRepository = lineItemRepository;
         }
     }
 }

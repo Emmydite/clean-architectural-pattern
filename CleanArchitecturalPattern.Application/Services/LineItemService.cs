@@ -10,6 +10,7 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class LineItemService : ILineItemService
     {
+        private readonly ILineItemRepository _lineItemRepository;
         public LineItemService()
         {
 

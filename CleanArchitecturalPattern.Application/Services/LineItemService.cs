@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.Services
 {
-    public class LineItemService
+    public class LineItemService : ILineItemService
     {
         public LineItemService()
         {

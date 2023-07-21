@@ -19,7 +19,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<LineItem> AddLineItem(LineItem lineItem)
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            }
         }
     }
 }

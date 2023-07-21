@@ -1,5 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Services;
 using CleanArchitecturalPattern.Application.Interfaces.Repositories;
+using CleanArchitecturalPattern.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

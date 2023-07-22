@@ -17,7 +17,7 @@ namespace CleanArchitecturalPattern.Application.Services
             _lineItemRepository = lineItemRepository;
         }
 
-        public async Task<LineItem> AddLineItem(LineItem lineItem)
+        public async Task<int> AddLineItem(LineItem lineItem)
         {
             try
             {

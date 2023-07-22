@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                _lineItemRepository.AddAsync()
+                _lineItemRepository.AddAsync(lineItem)
             }
             catch (Exception ex) 
             {

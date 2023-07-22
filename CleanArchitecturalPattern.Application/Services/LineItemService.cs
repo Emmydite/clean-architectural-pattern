@@ -22,7 +22,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                await _lineItemRepository.AddAsync(lineItem);
-                _lineItemRepository.SaveChanges();
+                await _lineItemRepository.SaveChanges();
             }
             catch (Exception ex) 
             {

@@ -21,12 +21,12 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-               await _lineItemRepository.AddAsync(lineItem);
-               var result = await _lineItemRepository.SaveChanges();
+                await _lineItemRepository.AddAsync(lineItem);
+                var result = await _lineItemRepository.SaveChanges();
 
                 return result;
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }

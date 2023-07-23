@@ -33,7 +33,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public void DeleteLineItem(Guid id)
         {
+            try
+            {
 
+            }
+            catch ()
+            { 
+            
+            } 
         }
     }
 }

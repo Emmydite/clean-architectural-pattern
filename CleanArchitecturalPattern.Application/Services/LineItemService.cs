@@ -39,6 +39,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 if (lineItem != null)
                 {
                     _lineItemRepository.Delete(lineItem);
+                    _lineItemRepository.SaveChanges();
                 }
             }
             catch ()

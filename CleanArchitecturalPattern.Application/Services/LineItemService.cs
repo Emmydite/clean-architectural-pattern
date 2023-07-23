@@ -36,6 +36,10 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var lineItem = _lineItemRepository.GetByIdAsync(id).GetAwaiter().GetResult();
+                if (lineItem != null)
+                {
+
+                }
             }
             catch ()
             { 

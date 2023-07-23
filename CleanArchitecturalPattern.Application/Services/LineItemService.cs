@@ -38,7 +38,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 var lineItem = _lineItemRepository.GetByIdAsync(id).GetAwaiter().GetResult();
                 if (lineItem != null)
                 {
-
+                    _lineItemRepository.Delete(lineItem);
                 }
             }
             catch ()

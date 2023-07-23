@@ -30,5 +30,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             }
         }
+
+        public void DeleteLineItem(Guid id)
+        {
+
+        }
     }
 }

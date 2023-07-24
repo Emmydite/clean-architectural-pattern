@@ -42,7 +42,7 @@ namespace CleanArchitecturalPattern.Application.Services
                     _lineItemRepository.SaveChanges();
                 }
             }
-            catch ()
+            catch (Exception ex)
             { 
             
             } 

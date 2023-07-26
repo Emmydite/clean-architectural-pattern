@@ -56,6 +56,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 _lineItemRepository.Update(lineItem);
+                var result = _lineItemRepository.SaveChanges();
             }
             catch(Exception ex) 
             {

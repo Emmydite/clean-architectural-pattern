@@ -53,7 +53,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public bool UpdateLineItem(LineItem lineItem)
         {
+            try
+            {
 
+            }
+            catch() 
+            {
+            
+            }
         }
     }
 }

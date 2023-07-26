@@ -50,5 +50,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             } 
         }
+
+        public bool UpdateLineItem(LineItem lineItem)
+        {
+
+        }
     }
 }

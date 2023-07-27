@@ -6,7 +6,7 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     {
         Task<int> AddLineItem(LineItem lineItem);
         void DeleteLineItem(Guid id);
-        bool UpdateLineItem(LineItem lineItem);
+        Task<bool> UpdateLineItem(LineItem lineItem);
         Task<LineItem> GetLineItem(Guid id);
     }
 }

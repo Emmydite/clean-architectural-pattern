@@ -51,7 +51,7 @@ namespace CleanArchitecturalPattern.Application.Services
             } 
         }
 
-        public Task<bool> UpdateLineItem(LineItem lineItem)
+        public async Task<bool> UpdateLineItem(LineItem lineItem)
         {
             try
             {

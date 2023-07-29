@@ -71,6 +71,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var lineItem = _lineItemRepository.GetByIdAsync(id);
+                return lineItem
             }
             catch (Exception ex) 
             {

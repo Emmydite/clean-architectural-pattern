@@ -70,7 +70,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var lineItem = _lineItemRepository.GetByIdAsync();
+                var lineItem = _lineItemRepository.GetByIdAsync(id);
             }
             catch (Exception ex) 
             {

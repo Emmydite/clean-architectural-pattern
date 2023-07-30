@@ -66,7 +66,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<LineItem> GetLineItem(Guid id)
+        public async Task<LineItem> GetLineItem(Guid id)
         {
             try
             {

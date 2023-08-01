@@ -8,5 +8,9 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class OrderService
     {
+        public OrderService()
+        {
+
+        }
     }
 }

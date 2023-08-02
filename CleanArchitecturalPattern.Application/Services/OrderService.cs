@@ -11,7 +11,7 @@ namespace CleanArchitecturalPattern.Application.Services
     public class OrderService : IOrderService
     {
         private readonly IOrderRepository _orderRepository;
-        public OrderService()
+        public OrderService(IOrderRepository orderRepository)
         {
 
         }

@@ -9,7 +9,7 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class OrderService
     {
-        
+        private readonly IOrderRepository _orderRepository;
         public OrderService()
         {
 

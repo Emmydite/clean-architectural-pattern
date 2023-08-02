@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace CleanArchitecturalPattern.Application.Services
 {
     public class OrderService
     {
+        
         public OrderService()
         {
 

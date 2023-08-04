@@ -6,6 +6,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
 {
     public interface IOrderService
     {
-        Task<int> AddLineItem();
+        Task<int> AddLineItem(Order order);
     }
 }

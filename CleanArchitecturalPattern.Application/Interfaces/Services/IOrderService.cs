@@ -8,5 +8,6 @@ namespace CleanArchitecturalPattern.Application.Interfaces.Services
     {
         Task<int> AddOrder(Order order);
         void DeleteOrder(Guid id);
+        bool UpdateOrder();
     }
 }

@@ -19,7 +19,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                _orderRepository.AddAsync(order)
+                _orderRepository.AddAsync(order);
             }
             catch (Exception ex)
             {

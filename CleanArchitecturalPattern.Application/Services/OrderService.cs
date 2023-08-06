@@ -15,7 +15,7 @@ namespace CleanArchitecturalPattern.Application.Services
             _orderRepository = orderRepository;
         }
 
-        public Task<int> AddOrder()
+        public Task<int> AddOrder(Order order)
         {
 
         }

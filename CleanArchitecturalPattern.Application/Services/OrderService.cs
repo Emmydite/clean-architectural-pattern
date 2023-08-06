@@ -17,7 +17,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<int> AddOrder(Order order)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

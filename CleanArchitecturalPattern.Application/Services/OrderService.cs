@@ -19,8 +19,8 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-               await _orderRepository.AddAsync(order);
-              var result = await _orderRepository.SaveChanges();
+                await _orderRepository.AddAsync(order);
+                var result = await _orderRepository.SaveChanges();
                 return result;
             }
             catch (Exception ex)

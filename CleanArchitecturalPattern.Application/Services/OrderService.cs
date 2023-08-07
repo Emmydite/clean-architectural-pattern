@@ -20,7 +20,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                await _orderRepository.AddAsync(order);
-               await _orderRepository.SaveChanges();
+              var result = await _orderRepository.SaveChanges();
             }
             catch (Exception ex)
             {

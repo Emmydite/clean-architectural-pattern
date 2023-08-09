@@ -32,7 +32,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public void DeleteOrder(Guid id)
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            } 
         }
     }
 }

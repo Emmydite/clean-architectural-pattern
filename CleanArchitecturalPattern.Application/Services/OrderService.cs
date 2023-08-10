@@ -38,6 +38,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 if (order != null)
                 {
                     _orderRepository.Delete(order);
+                    _orderRepository.SaveChanges();
                 }
             }
             catch (Exception ex) 

@@ -37,7 +37,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 var order = _orderRepository.GetByIdAsync(id).GetAwaiter().GetResult();
                 if (order != null)
                 {
-                    _orderRepository.Delete(order)
+                    _orderRepository.Delete(order);
                 }
             }
             catch (Exception ex) 

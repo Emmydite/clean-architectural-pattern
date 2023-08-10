@@ -34,7 +34,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-                var order = _orderRepository.GetByIdAsync(id).GetAwaiter()
+                var order = _orderRepository.GetByIdAsync(id).GetAwaiter().GetResult();
             }
             catch (Exception ex) 
             {

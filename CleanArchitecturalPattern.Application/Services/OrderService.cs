@@ -37,6 +37,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 var order = _orderRepository.GetByIdAsync(id)
                                             .GetAwaiter()
                                             .GetResult();
+
                 if (order != null)
                 {
                     _orderRepository.Delete(order);

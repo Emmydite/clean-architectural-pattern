@@ -49,5 +49,10 @@ namespace CleanArchitecturalPattern.Application.Services
                 throw ex;
             } 
         }
+
+        public Task<bool> UpdateOrder(Order order)
+        {
+
+        }
     }
 }

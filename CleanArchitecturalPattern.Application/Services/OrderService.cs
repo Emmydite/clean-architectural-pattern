@@ -54,7 +54,7 @@ namespace CleanArchitecturalPattern.Application.Services
         {
             try
             {
-
+                _orderRepository.Update();
             }
             catch (Exception ex)
             {

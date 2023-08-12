@@ -56,7 +56,7 @@ namespace CleanArchitecturalPattern.Application.Services
             {
 
             }
-            catch ()
+            catch (Exception ex)
             {
 
             }

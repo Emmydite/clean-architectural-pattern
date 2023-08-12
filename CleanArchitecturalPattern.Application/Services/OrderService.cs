@@ -52,7 +52,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<bool> UpdateOrder(Order order)
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

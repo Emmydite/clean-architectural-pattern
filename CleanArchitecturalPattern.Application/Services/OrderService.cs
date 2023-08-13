@@ -50,7 +50,7 @@ namespace CleanArchitecturalPattern.Application.Services
             } 
         }
 
-        public Task<bool> UpdateOrder(Order order)
+        public async Task<bool> UpdateOrder(Order order)
         {
             try
             {

@@ -44,10 +44,10 @@ namespace CleanArchitecturalPattern.Application.Services
                     _orderRepository.SaveChanges();
                 }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
-            } 
+            }
         }
 
         public async Task<bool> UpdateOrder(Order order)
@@ -55,7 +55,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 _orderRepository.Update(order);
-               var result = await _orderRepository.SaveChanges();
+                var result = await _orderRepository.SaveChanges();
                 return result;
             }
             catch (Exception ex)

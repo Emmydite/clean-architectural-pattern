@@ -56,7 +56,7 @@ namespace CleanArchitecturalPattern.Application.Services
             {
                 _orderRepository.Update(order);
                var result = await _orderRepository.SaveChanges();
-                return result
+                return result;
             }
             catch (Exception ex)
             {

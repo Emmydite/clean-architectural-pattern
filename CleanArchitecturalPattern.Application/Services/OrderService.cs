@@ -67,7 +67,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<Order> GetOrderById(Guid id)
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            }
         }
     }
 }

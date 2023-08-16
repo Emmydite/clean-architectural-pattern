@@ -70,6 +70,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var order = _orderRepository.GetByIdAsync(id);
+                return order;
             }
             catch (Exception ex) 
             {

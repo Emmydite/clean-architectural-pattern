@@ -65,7 +65,7 @@ namespace CleanArchitecturalPattern.Application.Services
             }
         }
 
-        public Task<Order> GetOrderById(Guid id)
+        public async Task<Order> GetOrderById(Guid id)
         {
             try
             {

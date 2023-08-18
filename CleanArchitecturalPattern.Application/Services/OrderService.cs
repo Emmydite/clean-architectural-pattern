@@ -81,7 +81,14 @@ namespace CleanArchitecturalPattern.Application.Services
 
         public Task<List<Order>> GetAllOrders()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

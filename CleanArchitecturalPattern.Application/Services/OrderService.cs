@@ -84,6 +84,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 var orders = await _orderRepository.GetAllAsync();
+
                 return orders;
             }
             catch (Exception ex)

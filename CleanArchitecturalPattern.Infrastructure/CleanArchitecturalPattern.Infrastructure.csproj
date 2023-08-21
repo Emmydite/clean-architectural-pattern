@@ -20,4 +20,8 @@
     <ProjectReference Include="..\CleanArchitecturalPattern.Domain\CleanArchitecturalPattern.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
 </Project>

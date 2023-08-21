@@ -14,7 +14,7 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
         public static IServiceCollection AddInfrastructureRepositories(this IServiceCollection services)
         {
 
-            
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 
 

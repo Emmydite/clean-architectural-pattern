@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
 {
-    internal class DependencyInjection
+    public class DependencyInjection
     {
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
+using CleanArchitecturalPattern.Infrastructure.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,8 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
 
             
 
-            
+
+
         }
     }
 }

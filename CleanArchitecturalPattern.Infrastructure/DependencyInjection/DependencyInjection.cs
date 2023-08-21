@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CleanArchitecturalPattern.Application.Interfaces.Repositories;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,9 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
         public static IServiceCollection AddInfrastructureRepositories(this IServiceCollection services)
         {
 
+            
+
+            
         }
     }
 }

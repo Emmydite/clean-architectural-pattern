@@ -9,7 +9,7 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructureRepositories()
+        public static IServiceCollection AddInfrastructureRepositories(this IServiceCollection services)
         {
 
         }

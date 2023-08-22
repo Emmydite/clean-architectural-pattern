@@ -15,7 +15,7 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
         {
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
-
+            services.AddScoped<ILineItemRepository, LineItemRepository>();
 
 
         }

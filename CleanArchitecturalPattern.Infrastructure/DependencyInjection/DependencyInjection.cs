@@ -17,6 +17,7 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ILineItemRepository, LineItemRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
 
         }
     }

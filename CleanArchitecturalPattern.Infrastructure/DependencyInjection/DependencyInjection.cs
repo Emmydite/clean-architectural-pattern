@@ -12,7 +12,7 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
     {
         public static IServiceCollection AddInfrastructureRepositories(this IServiceCollection services, IConfiguration configuration)
         {
-            
+            services.AddDbContext<AppDbContext>();
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<ILineItemRepository, LineItemRepository>();

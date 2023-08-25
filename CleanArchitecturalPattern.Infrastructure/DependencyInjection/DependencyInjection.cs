@@ -15,7 +15,7 @@ namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
         {
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString())
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
             });
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CleanArchitecturalPattern.Application.Interfaces.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
@@ -7,6 +8,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+        
         public ProductController()
         {
 

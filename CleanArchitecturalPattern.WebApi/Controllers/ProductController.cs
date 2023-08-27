@@ -7,6 +7,9 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+        public ProductController()
+        {
 
+        }
     }
 }

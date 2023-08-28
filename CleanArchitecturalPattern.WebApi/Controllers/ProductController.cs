@@ -16,7 +16,13 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult AddProduct()
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+            } 
         }
     }
 }

@@ -18,7 +18,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-
+                var createProduct = _productService.AddProduct()
             }
             catch (Exception ex) 
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchitecturalPattern.Application.DTOs
 {
-    internal class Product
+    public class Product
     {
     }
 }

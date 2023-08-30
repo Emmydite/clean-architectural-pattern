@@ -14,8 +14,4 @@
     <ProjectReference Include="..\CleanArchitecturalPattern.Application\CleanArchitecturalPattern.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

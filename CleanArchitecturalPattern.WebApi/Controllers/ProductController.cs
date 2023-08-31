@@ -1,4 +1,5 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Services;
+using CleanArchitecturalPattern.Domain.Entities;
 using CleanArchitecturalPattern.WebApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,6 +21,8 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 //map model to entity 
+                
+
                 var createProduct = _productService.AddProduct()
             }
             catch (Exception ex) 

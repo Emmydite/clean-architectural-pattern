@@ -1,4 +1,5 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Services;
+using CleanArchitecturalPattern.WebApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

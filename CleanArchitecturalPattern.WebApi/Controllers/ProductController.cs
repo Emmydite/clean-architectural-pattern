@@ -19,6 +19,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                //map model to entity 
                 var createProduct = _productService.AddProduct()
             }
             catch (Exception ex) 

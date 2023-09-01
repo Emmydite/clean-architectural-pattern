@@ -3,7 +3,6 @@ using CleanArchitecturalPattern.Domain.Entities;
 using CleanArchitecturalPattern.WebApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ProductEntity = CleanArchitecturalPattern.Domain.Entities.Product;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
 {
@@ -22,7 +21,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 //map model to entity 
-                var model = new Product
+                var model = new ProductEntity
                 {
 
                 }

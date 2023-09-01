@@ -3,7 +3,7 @@ using CleanArchitecturalPattern.Domain.Entities;
 using CleanArchitecturalPattern.WebApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Product = CleanArchitecturalPattern.Domain.Entities.Product;
+using ProductEntity = CleanArchitecturalPattern.Domain.Entities.Product;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
 {

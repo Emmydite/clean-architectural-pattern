@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 //map model to entity 
-                var model = new Product
+                var product = new Product
                 {
                     Id = product.Id,
                 };

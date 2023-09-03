@@ -27,6 +27,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     ProductName = model.ProductName,
                     ProductDescription = model.ProductDescription,
                     ProductSKU = model.ProductSKU,
+                    Price = model.Price,
                 };
 
                 var createProduct = _productService.AddProduct()

@@ -32,7 +32,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     Vendor = model.Vendor,
                 };
 
-                var createProduct = _productService.AddProduct(product);
+                var createProduct = await _productService.AddProduct(product);
             }
             catch (Exception ex) 
             {

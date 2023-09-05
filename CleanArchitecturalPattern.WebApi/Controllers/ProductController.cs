@@ -16,6 +16,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _productService = productService;
         }
 
+        [HttpPost]
         public IActionResult AddProduct(ProductModel model)
         {
             try

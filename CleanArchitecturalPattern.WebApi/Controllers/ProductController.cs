@@ -17,7 +17,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         }
 
         [HttpPost]
-        public Task<IActionResult> AddProduct(ProductModel model)
+        public async Task<IActionResult> AddProduct(ProductModel model)
         {
             try
             {

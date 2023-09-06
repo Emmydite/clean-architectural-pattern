@@ -2,8 +2,6 @@
 using CleanArchitecturalPattern.Application.Interfaces.Services;
 using CleanArchitecturalPattern.Domain.Entities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace CleanArchitecturalPattern.Application.Services
 {

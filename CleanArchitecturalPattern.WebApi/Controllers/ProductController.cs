@@ -46,7 +46,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var product = _productService.GetProductById();
+                var product = _productService.GetProductById(id);
             }
             catch (Exception ex) 
             {

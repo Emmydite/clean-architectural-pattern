@@ -42,7 +42,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public IActionResult GetProduct()
+        public IActionResult GetProduct(Guid id)
         {
 
         }

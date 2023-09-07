@@ -47,6 +47,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var product = await _productService.GetProductById(id);
+                return Ok(product);
             }
             catch (Exception ex) 
             {

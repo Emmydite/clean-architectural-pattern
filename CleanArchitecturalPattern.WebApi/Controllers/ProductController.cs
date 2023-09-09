@@ -59,7 +59,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetProducts()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

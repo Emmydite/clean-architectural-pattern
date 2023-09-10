@@ -61,7 +61,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var products = _productService.GetAllProducts();
+                var products = await _productService.GetAllProducts();
             }
             catch (Exception ex)
             {

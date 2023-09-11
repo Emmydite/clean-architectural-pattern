@@ -72,7 +72,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public Task<IActionResult> UpdateProduct()
+        public async Task<IActionResult> UpdateProduct()
         {
             try
             {

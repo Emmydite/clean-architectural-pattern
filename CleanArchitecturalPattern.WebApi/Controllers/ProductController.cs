@@ -80,6 +80,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 if (product != null)
                 {
                     product.ProductName = model.ProductName;
+                    product.ProductDescription = model.ProductDescription;
                 }
             }
             catch (Exception ex) 

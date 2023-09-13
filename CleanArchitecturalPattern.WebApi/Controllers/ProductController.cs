@@ -76,6 +76,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var product = _productService.GetProductById(model.Id);
+
+                if (product != null)
+                {
+
+                }
             }
             catch (Exception ex) 
             {

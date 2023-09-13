@@ -75,7 +75,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var product = _productService.GetProductById(model.Id);
+                var product = await _productService.GetProductById(model.Id);
 
                 if (product != null)
                 {

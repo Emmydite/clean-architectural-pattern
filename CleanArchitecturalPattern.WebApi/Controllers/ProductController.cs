@@ -81,6 +81,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 {
                     product.ProductName = model.ProductName;
                     product.ProductDescription = model.ProductDescription;
+                    product.ProductSKU = model.ProductSKU;
                 }
             }
             catch (Exception ex) 

@@ -87,6 +87,8 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                   await _productService.UpdateProduct(product);
                 }
+
+                return Ok(success);
             }
             catch (Exception ex) 
             {

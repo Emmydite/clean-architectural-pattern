@@ -84,7 +84,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     product.ProductSKU = model.ProductSKU;
                     product.Price = model.Price;
 
-                    _productService.UpdateProduct(product);
+                  await  _productService.UpdateProduct(product);
                 }
             }
             catch (Exception ex) 

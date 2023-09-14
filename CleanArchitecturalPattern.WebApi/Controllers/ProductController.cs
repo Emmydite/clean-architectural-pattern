@@ -85,7 +85,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     product.ProductSKU = model.ProductSKU;
                     product.Price = model.Price;
 
-                  await _productService.UpdateProduct(product);
+                 success = await _productService.UpdateProduct(product);
                 }
 
                 return Ok(success);

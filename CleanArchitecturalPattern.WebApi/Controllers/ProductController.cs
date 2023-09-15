@@ -71,6 +71,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
+        [HttpPut]
         public async Task<IActionResult> UpdateProduct(ProductModel model)
         {
             try

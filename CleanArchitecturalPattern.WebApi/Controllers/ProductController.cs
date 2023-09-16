@@ -102,7 +102,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var product = _productService.GetProductById(id);
-                _productService.DeleteProduct()
+                _productService.DeleteProduct(id)
             }
             catch (Exception ex) 
             {

@@ -97,7 +97,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public IActionResult DeleteProduct()
+        public IActionResult DeleteProduct(Guid id)
         {
             try
             {

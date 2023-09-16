@@ -99,7 +99,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult DeleteProduct()
         {
+            try
+            {
 
+            }
+            catch () 
+            {
+
+            } 
         }
     }
 }

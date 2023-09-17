@@ -102,6 +102,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 _productService.DeleteProduct(id);
+                return Ok();
             }
             catch (Exception ex) 
             {

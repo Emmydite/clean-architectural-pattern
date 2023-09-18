@@ -2,7 +2,7 @@
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
 {
-    public class CustomerController : Controller
+    public class CustomerController : ControllerBase
     {
         public IActionResult Index()
         {

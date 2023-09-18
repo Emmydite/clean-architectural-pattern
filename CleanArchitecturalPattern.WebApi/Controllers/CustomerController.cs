@@ -6,6 +6,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
+        public CustomerController()
+        {
+
+        }
         public IActionResult Index()
         {
             return View();

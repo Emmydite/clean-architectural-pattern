@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using CleanArchitecturalPattern.Application.Interfaces.Services;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
 {
@@ -6,6 +7,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
+
         public CustomerController()
         {
 

@@ -8,7 +8,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     public class CustomerController : ControllerBase
     {
         private readonly ICustomerService _customerService;
-        public CustomerController()
+        public CustomerController(ICustomerService customerService)
         {
 
         }

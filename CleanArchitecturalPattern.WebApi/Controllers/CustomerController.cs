@@ -21,7 +21,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 return Ok();
             }
-            catch () 
+            catch (Exception ex) 
             {
 
             }  

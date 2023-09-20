@@ -17,7 +17,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult AddCustomer(CustomerModel model)
         {
-            return Ok();
+            try
+            {
+                return Ok();
+            }
+            catch () 
+            {
+
+            }  
         }
     }
 }

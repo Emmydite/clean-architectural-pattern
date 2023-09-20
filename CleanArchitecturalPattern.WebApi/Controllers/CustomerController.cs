@@ -14,7 +14,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _customerService = customerService;
         }
 
-        public IActionResult AddCustomer()
+        public IActionResult AddCustomer(Customer customer)
         {
             return View();
         }

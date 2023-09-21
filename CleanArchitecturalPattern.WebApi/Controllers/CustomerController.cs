@@ -23,6 +23,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 {
                     Id = model.Id,
                     FirstName = model.FirstName,
+                    LastName = model.LastName,
                 }
 
                 return Ok();

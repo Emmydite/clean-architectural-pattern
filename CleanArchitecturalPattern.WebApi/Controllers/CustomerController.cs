@@ -29,6 +29,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     Address1 = model.Address1,
                     Address2 = model.Address2,
                     Postcode = model.Postcode,
+                    City = model.City,
                 }
 
                 return Ok();

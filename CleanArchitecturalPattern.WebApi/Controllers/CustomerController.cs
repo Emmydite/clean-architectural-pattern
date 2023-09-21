@@ -25,6 +25,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     PhoneNumber = model.PhoneNumber,
+                    Email = model.Email,
                 }
 
                 return Ok();

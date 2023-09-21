@@ -22,6 +22,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var customer = new Customer
                 {
                     Id = model.Id,
+                    FirstName = model.FirstName,
                 }
 
                 return Ok();

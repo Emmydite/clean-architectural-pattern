@@ -19,6 +19,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                var customer = new Customer
+                {
+
+                }
+
                 return Ok();
             }
             catch (Exception ex) 

@@ -33,6 +33,8 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     Country = model.Country,
                 };
 
+                var createCustomer = _customerService.AddCustomer(customer);
+
                 return Ok();
             }
             catch (Exception ex) 

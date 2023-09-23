@@ -35,7 +35,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 var createCustomer = await _customerService.AddCustomer(customer);
 
-                return Ok();
+                return CreatedAtAction();
             }
             catch (Exception ex) 
             {

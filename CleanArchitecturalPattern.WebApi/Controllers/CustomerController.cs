@@ -45,7 +45,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetCustomer()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

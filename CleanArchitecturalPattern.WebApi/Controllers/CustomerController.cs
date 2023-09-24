@@ -43,7 +43,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }  
         }
 
-        public IActionResult GetCustomer()
+        public IActionResult GetCustomer(Guid id)
         {
             try
             {

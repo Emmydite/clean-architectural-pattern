@@ -43,7 +43,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }  
         }
 
-        public Task<IActionResult> GetCustomer(Guid id)
+        public async Task<IActionResult> GetCustomer(Guid id)
         {
             try
             {

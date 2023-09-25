@@ -47,7 +47,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var customer = _customerService.GetCustomer(id);
+                var customer = await _customerService.GetCustomer(id);
                 return Ok(customer);
             }
             catch (Exception ex)

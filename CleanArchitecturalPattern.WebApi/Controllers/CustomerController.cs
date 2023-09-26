@@ -15,6 +15,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _customerService = customerService;
         }
 
+        [HttpPost]
         public async Task<IActionResult> AddCustomer(CustomerModel model)
         {
             try

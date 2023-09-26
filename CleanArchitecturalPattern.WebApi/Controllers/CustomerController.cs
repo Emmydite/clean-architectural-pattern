@@ -43,6 +43,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }  
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetCustomer(Guid id)
         {
             try

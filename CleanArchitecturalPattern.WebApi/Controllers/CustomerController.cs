@@ -63,7 +63,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-
+                var customers = _customerService.GetAllCustomers()
             }
             catch (Exception ex) 
             { 

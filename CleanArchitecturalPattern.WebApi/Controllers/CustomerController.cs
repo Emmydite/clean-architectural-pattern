@@ -59,7 +59,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public Task<IActionResult> GetCustomers()
+        public async Task<IActionResult> GetCustomers()
         {
             try
             {

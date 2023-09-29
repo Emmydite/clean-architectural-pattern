@@ -1,7 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Services;
 using CleanArchitecturalPattern.Application.Interfaces.Repositories;
 using System;
-using System.Collections.Generic;
 using CleanArchitecturalPattern.Domain.Entities;
 
 namespace CleanArchitecturalPattern.Application.Services

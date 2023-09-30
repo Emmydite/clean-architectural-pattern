@@ -75,7 +75,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult UpdateCustomer()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

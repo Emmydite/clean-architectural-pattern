@@ -74,6 +74,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
+        [HttpPut]
         public IActionResult UpdateCustomer()
         {
             try

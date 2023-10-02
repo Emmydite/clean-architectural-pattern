@@ -80,6 +80,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 bool success = false;
+                var customer = _customerService.GetCustomer(model.Id)
             }
             catch (Exception ex)
             {

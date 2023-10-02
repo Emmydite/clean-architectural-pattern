@@ -79,7 +79,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-
+                bool success = false;
             }
             catch (Exception ex)
             {

@@ -75,7 +75,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         }
 
         [HttpPut]
-        public IActionResult UpdateCustomer()
+        public IActionResult UpdateCustomer(CustomerModel model)
         {
             try
             {

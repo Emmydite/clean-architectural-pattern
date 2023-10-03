@@ -80,7 +80,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 bool success = false;
-                var customer = _customerService.GetCustomer(model.Id);
+                var customer = await _customerService.GetCustomer(model.Id);
                 if(customer != null)
                 {
                     

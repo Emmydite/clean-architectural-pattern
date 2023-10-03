@@ -75,7 +75,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         }
 
         [HttpPut]
-        public IActionResult UpdateCustomer(CustomerModel model)
+        public Task<IActionResult> UpdateCustomer(CustomerModel model)
         {
             try
             {
@@ -83,7 +83,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var customer = _customerService.GetCustomer(model.Id);
                 if(customer != null)
                 {
-
+                    
                 }
             }
             catch (Exception ex)

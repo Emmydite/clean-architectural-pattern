@@ -75,7 +75,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         }
 
         [HttpPut]
-        public Task<IActionResult> UpdateCustomer(CustomerModel model)
+        public async Task<IActionResult> UpdateCustomer(CustomerModel model)
         {
             try
             {

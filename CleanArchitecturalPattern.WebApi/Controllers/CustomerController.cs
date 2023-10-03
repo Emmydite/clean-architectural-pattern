@@ -81,6 +81,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 bool success = false;
                 var customer = _customerService.GetCustomer(model.Id);
+                if(customer != null)
+                {
+
+                }
             }
             catch (Exception ex)
             {

@@ -84,6 +84,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 if(customer != null)
                 {
                     customer.FirstName = model.FirstName;
+                    customer.LastName = model.LastName;
                 }
             }
             catch (Exception ex)

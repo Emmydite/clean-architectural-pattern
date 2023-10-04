@@ -83,7 +83,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var customer = await _customerService.GetCustomer(model.Id);
                 if(customer != null)
                 {
-                    
+                    customer.FirstName = model.FirstName;
                 }
             }
             catch (Exception ex)

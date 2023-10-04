@@ -86,6 +86,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     customer.FirstName = model.FirstName;
                     customer.LastName = model.LastName;
                     customer.Email = model.Email;
+                    customer.PhoneNumber = model.PhoneNumber;
                 }
             }
             catch (Exception ex)

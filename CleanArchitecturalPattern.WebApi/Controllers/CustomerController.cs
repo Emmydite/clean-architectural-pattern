@@ -87,6 +87,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     customer.LastName = model.LastName;
                     customer.Email = model.Email;
                     customer.PhoneNumber = model.PhoneNumber;
+                    customer.Address1 = model.Address1;
                     customer.City = model.City;
                     customer.Country = model.Country;
                 }

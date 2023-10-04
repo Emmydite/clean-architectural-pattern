@@ -91,6 +91,8 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     customer.Address2 = model.Address2;
                     customer.City = model.City;
                     customer.Country = model.Country;
+
+                    success = _customerService.UpdateCustomer(customer);
                 }
             }
             catch (Exception ex)

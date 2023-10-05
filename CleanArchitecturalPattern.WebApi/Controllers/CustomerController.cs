@@ -95,7 +95,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     success = _customerService.UpdateCustomer(customer);
                 }
 
-                return Ok(success)
+                return Ok(success);
             }
             catch (Exception ex)
             {

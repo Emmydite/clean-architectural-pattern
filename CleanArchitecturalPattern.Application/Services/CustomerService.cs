@@ -53,7 +53,7 @@ namespace CleanArchitecturalPattern.Application.Services
            
         }
 
-        public bool UpdateCustomer(Customer customer)
+        public Task<bool> UpdateCustomer(Customer customer)
         {
             try
             {

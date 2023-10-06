@@ -58,7 +58,7 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 _customerRepository.Update(customer);
-               var result = _customerRepository.SaveChanges();
+               var result = await _customerRepository.SaveChanges();
             }
             catch (Exception ex)
             {

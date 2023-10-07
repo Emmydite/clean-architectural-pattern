@@ -60,7 +60,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 _customerRepository.Update(customer);
                 var result = await _customerRepository.SaveChanges();
 
-                return result == 1
+                return result == 1;
             }
             catch (Exception ex)
             {

@@ -12,7 +12,7 @@ namespace CleanArchitecturalPattern.Application.Services
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IPaymentRepository _paymentRepository;
-        public CustomerService(ICustomerRepository customerRepository, 
+        public CustomerService(ICustomerRepository customerRepository,
                                IPaymentRepository paymentRepository)
         {
             _customerRepository = customerRepository;
@@ -50,7 +50,7 @@ namespace CleanArchitecturalPattern.Application.Services
             {
                 throw ex;
             }
-           
+
         }
 
         public async Task<bool> UpdateCustomer(Customer customer)
@@ -58,14 +58,14 @@ namespace CleanArchitecturalPattern.Application.Services
             try
             {
                 _customerRepository.Update(customer);
-               var result = await _customerRepository.SaveChanges();
+                var result = await _customerRepository.SaveChanges();
                 return result == 1
             }
             catch (Exception ex)
             {
                 throw ex;
             }
-            
+
         }
 
         public async Task<IEnumerable<Customer>> GetAllCustomers()
@@ -107,7 +107,7 @@ namespace CleanArchitecturalPattern.Application.Services
                 var customerPayments = result.Select(e => new CustomerPaymentsDto
                 {
                     CustomerId = id,
-                    FirstName = customer.FirstName, 
+                    FirstName = customer.FirstName,
                     LastName = customer.LastName,
                     PhoneNumber = customer.PhoneNumber,
                     Email = customer.Email,
@@ -122,7 +122,7 @@ namespace CleanArchitecturalPattern.Application.Services
             {
                 throw ex;
             }
-            
+
         }
     }
 }

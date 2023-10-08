@@ -81,6 +81,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 bool success = false;
                 var customer = await _customerService.GetCustomer(model.Id);
+
                 if(customer != null)
                 {
                     customer.FirstName = model.FirstName;

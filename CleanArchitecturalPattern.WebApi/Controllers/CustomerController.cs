@@ -92,7 +92,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     customer.City = model.City;
                     customer.Country = model.Country;
 
-                    success = _customerService.UpdateCustomer(customer);
+                    success = await _customerService.UpdateCustomer(customer);
                 }
 
                 return Ok(success);

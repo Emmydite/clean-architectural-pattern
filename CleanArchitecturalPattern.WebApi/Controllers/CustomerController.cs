@@ -104,9 +104,16 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult DeleteCustomer(Guid id) 
-        { 
+        public IActionResult DeleteCustomer(Guid id)
+        {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            }
         }
     }
 }

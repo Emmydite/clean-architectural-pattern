@@ -108,7 +108,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                _customerService.DeleteCustomer();
+                _customerService.DeleteCustomer(id);
             }
             catch (Exception ex) 
             {

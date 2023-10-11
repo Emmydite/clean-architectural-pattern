@@ -110,6 +110,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 _customerService.DeleteCustomer(id);
+
                 return Ok();
             }
             catch (Exception ex) 

@@ -121,7 +121,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetCustomerPayments()
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            } 
         }
     }
 }

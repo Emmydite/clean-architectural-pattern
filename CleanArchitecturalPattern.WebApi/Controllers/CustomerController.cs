@@ -119,7 +119,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult GetCustomerPayments()
+        public Task<IActionResult> GetCustomerPayments()
         {
             try
             {

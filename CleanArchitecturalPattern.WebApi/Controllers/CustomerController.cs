@@ -124,6 +124,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var customerPayments = await _customerService.CustomerPayments(id);
+
                 return Ok(customerPayments);
             }
             catch (Exception ex) 

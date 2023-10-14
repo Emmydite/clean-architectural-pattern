@@ -123,7 +123,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var customerPayments = _customerService.CustomerPayments(id);
+                var customerPayments = await _customerService.CustomerPayments(id);
                 return Ok();
             }
             catch (Exception ex) 

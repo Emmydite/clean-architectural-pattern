@@ -119,6 +119,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetCustomerPayments(Guid id)
         {
             try

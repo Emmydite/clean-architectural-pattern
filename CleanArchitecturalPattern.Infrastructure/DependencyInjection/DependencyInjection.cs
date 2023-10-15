@@ -4,8 +4,6 @@ using CleanArchitecturalPattern.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
 
 namespace CleanArchitecturalPattern.Infrastructure.DependencyInjection
 {

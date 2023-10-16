@@ -9,9 +9,9 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
-        public OrderController()
+        public OrderController(IOrderService orderService)
         {
-
+            
         }
     }
 }

@@ -11,7 +11,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         private readonly IOrderService _orderService;
         public OrderController(IOrderService orderService)
         {
-            
+            _orderService = orderService;
         }
     }
 }

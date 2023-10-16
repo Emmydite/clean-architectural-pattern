@@ -8,6 +8,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
+        private readonly IOrderService _orderService;
         public OrderController()
         {
 

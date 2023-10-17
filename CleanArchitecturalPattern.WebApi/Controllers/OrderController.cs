@@ -16,7 +16,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult AddOrder()
         {
+            try
+            {
 
+            }
+            catch () { } 
         }
     }
 }

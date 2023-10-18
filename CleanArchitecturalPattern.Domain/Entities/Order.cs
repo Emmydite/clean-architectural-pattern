@@ -13,7 +13,7 @@ namespace CleanArchitecturalPattern.Domain.Entities
         public Guid CustomerId { get; set; }
         public DateTime? OrderDate { get; set; }
         public DateTime? OrderShippedDate { get; set; }
-        public int Status { get;}
+        public int Status { get; set; }
         public List<LineItem> Items { get; set; }
         public Customer Customer { get; set; }
 

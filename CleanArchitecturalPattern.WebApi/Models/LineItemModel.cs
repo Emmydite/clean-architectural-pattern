@@ -2,5 +2,6 @@
 {
     public class LineItemModel
     {
+        public Guid Id { get; set; }
     }
 }

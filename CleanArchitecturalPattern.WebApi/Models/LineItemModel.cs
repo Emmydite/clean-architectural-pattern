@@ -1,4 +1,6 @@
-﻿namespace CleanArchitecturalPattern.WebApi.Models
+﻿using CleanArchitecturalPattern.Domain.Entities;
+
+namespace CleanArchitecturalPattern.WebApi.Models
 {
     public class LineItemModel
     {
@@ -6,5 +8,9 @@
         public Guid OrderId { get; set; }
         public Guid ProductId { get; set; }
         public int Quantity { get; set; }
+        public decimal TotalPrice()
+        {
+            
+        }
     }
 }

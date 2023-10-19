@@ -10,7 +10,7 @@ namespace CleanArchitecturalPattern.WebApi.Models
         public int Quantity { get; set; }
         public decimal TotalPrice()
         {
-            
+            return product.Price * Quantity;
         }
     }
 }

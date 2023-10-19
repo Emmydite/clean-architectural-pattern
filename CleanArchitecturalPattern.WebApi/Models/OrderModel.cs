@@ -8,6 +8,6 @@
         public DateTime? OrderDate { get; set; }
         public DateTime? OrderShippedDate { get; set; }
         public int Status { get; set; }
-        public LineItemModel Items { get; set; }
+        public List<LineItemModel> Items { get; set; }
     }
 }

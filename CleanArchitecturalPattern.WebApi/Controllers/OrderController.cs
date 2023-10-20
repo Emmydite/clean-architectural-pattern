@@ -24,6 +24,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 {
                     ProductId  = model.ProductId,
                     CustomerId = model.CustomerId,
+                    OrderDate = model.OrderDate,
                 };
             }
             catch (Exception ex) 

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using CleanArchitecturalPattern.Application.Interfaces.Services;
 using CleanArchitecturalPattern.Domain.Entities;
+using CleanArchitecturalPattern.WebApi.Models;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
 {

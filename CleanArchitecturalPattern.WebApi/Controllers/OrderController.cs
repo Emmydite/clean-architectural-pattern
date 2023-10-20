@@ -23,7 +23,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var order = new Order
                 {
 
-                }
+                };
             }
             catch (Exception ex) 
             {

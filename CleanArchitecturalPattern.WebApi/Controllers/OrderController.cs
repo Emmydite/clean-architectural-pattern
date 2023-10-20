@@ -23,6 +23,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var order = new Order
                 {
                     ProductId  = model.ProductId,
+                    CustomerId = model.CustomerId,
                 };
             }
             catch (Exception ex) 

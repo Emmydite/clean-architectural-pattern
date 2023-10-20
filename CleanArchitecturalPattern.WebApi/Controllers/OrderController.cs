@@ -16,7 +16,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _orderService = orderService;
         }
 
-        public async Task<IActionResult> AddOrder()
+        public async Task<IActionResult> AddOrder(OrderModel model)
         {
             try
             {

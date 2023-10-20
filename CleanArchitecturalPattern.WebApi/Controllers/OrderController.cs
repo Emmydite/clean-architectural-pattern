@@ -27,6 +27,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     OrderDate = model.OrderDate,
                     OrderShippedDate = model.OrderShippedDate,
                     Status = model.Status,
+                    Items = model.Items
                 };
             }
             catch (Exception ex) 

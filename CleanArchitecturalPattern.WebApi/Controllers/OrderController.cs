@@ -20,7 +20,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                var order = new Order
+                {
 
+                }
             }
             catch (Exception ex) 
             {

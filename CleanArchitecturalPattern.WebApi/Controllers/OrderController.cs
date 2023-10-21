@@ -29,7 +29,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     Status = model.Status,
                     Items = model.Items,
                 };
-                var createOrder = _orderService.AddOrder(order)
+                var createOrder = _orderService.AddOrder(order);
             }
             catch (Exception ex) 
             {

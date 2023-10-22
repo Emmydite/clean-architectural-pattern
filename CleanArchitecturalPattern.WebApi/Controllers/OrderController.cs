@@ -29,6 +29,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     Status = model.Status,
                     Items = model.Items,
                 };
+
                 var createOrder = _orderService.AddOrder(order);
                 return CreatedAtAction(nameof(AddOrder), new { Id = order.OrderId }, createOrder);
             }

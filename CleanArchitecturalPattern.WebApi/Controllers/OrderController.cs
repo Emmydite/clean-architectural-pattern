@@ -31,6 +31,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 };
 
                 var createOrder = _orderService.AddOrder(order);
+
                 return CreatedAtAction(nameof(AddOrder), new { Id = order.OrderId }, createOrder);
             }
             catch (Exception ex) 

@@ -43,7 +43,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetOrder(Guid id)
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            }
         }
     }
 }

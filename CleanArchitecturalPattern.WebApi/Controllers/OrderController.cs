@@ -41,6 +41,9 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
+        public IActionResult GetOrder()
+        {
 
+        }
     }
 }

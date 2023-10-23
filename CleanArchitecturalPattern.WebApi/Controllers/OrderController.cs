@@ -16,6 +16,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _orderService = orderService;
         }
 
+        [HttpPost]
         public async Task<IActionResult> AddOrder(OrderModel model)
         {
             try
@@ -27,7 +28,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     OrderDate = model.OrderDate,
                     OrderShippedDate = model.OrderShippedDate,
                     Status = model.Status,
-                    Items = model.Items,
+                    Items = model.Items
                 };
 
                 var createOrder = _orderService.AddOrder(order);
@@ -39,5 +40,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 throw ex;
             } 
         }
+
+
     }
 }

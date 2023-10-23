@@ -41,7 +41,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public IActionResult GetOrder()
+        public IActionResult GetOrder(Guid id)
         {
 
         }

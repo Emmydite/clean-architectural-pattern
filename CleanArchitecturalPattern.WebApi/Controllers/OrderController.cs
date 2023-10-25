@@ -45,7 +45,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var order = _orderService.GetOrderById(id);
+                var order = await _orderService.GetOrderById(id);
                 return Ok(order);
             }
             catch (Exception ex) 

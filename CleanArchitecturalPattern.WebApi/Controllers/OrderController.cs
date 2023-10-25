@@ -41,7 +41,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public Task<IActionResult> GetOrder(Guid id)
+        public async Task<IActionResult> GetOrder(Guid id)
         {
             try
             {

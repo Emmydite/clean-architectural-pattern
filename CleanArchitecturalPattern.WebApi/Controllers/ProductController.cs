@@ -1,7 +1,6 @@
 ﻿using CleanArchitecturalPattern.Application.Interfaces.Services;
 using CleanArchitecturalPattern.Domain.Entities;
 using CleanArchitecturalPattern.WebApi.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers

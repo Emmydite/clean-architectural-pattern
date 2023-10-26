@@ -58,7 +58,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetOrders()
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            } 
         }
     }
 }

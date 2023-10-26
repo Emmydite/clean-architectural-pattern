@@ -60,7 +60,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-
+                var orders = _orderService.GetAllOrders()
             }
             catch (Exception ex) 
             {

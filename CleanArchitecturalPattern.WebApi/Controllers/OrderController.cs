@@ -56,7 +56,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public Task<IActionResult> GetOrders()
+        public async Task<IActionResult> GetOrders()
         {
             try
             {

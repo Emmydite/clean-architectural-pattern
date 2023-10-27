@@ -31,7 +31,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 var createProduct = await _productService.AddProduct(product);
 
-                return CreatedAtAction(nameof(AddProduct), new { Id = product.Id }, createProduct);
+                return CreatedAtAction(nameof(AddProduct), new { Id = createProduct }, createProduct);
             }
             catch (Exception ex) 
             {

@@ -22,7 +22,6 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 var product = new Product
                 {
-                    Id = model.Id,
                     ProductName = model.ProductName,
                     ProductDescription = model.ProductDescription,
                     ProductSKU = model.ProductSKU,

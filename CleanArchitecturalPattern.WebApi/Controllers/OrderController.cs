@@ -61,6 +61,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var orders = await _orderService.GetAllOrders();
+
                 return Ok(orders);
             }
             catch (Exception ex) 

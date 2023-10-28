@@ -72,7 +72,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult DeleteOrder()
         {
+            try
+            {
 
+            }
+            catch ()
+            {
+
+            }
         }
     }
 }

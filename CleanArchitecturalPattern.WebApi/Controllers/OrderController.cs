@@ -74,7 +74,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-
+                _orderService.DeleteOrder()
             }
             catch (Exception ex)
             {

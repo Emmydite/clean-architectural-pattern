@@ -70,7 +70,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public IActionResult DeleteOrder()
+        public IActionResult DeleteOrder(Guid id)
         {
             try
             {

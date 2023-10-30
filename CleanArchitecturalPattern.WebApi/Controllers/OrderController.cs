@@ -71,6 +71,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
+        [HttpDelete]
         public IActionResult DeleteOrder(Guid id)
         {
             try

@@ -95,6 +95,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
+        [HttpDelete]
         public IActionResult DeleteProduct(Guid id)
         {
             try

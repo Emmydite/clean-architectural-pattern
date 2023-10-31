@@ -86,7 +86,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult UpdateOrder() 
+        public IActionResult UpdateOrder(OrderModel model) 
         { 
 
         }

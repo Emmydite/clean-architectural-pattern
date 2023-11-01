@@ -91,6 +91,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var order = _orderService.GetOrderById(model.OrderId);
+                if (order != null)
+                {
+
+                }
             }
             catch (Exception ex)
             {

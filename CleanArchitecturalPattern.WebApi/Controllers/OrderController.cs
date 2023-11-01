@@ -90,7 +90,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-
+                var order = _orderService.GetOrderById()
             }
             catch (Exception ex)
             {

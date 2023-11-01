@@ -86,7 +86,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public Task<IActionResult> UpdateOrder(OrderModel model)
+        public async Task<IActionResult> UpdateOrder(OrderModel model)
         {
             try
             {

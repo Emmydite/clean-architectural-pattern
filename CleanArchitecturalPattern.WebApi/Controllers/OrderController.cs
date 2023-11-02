@@ -96,7 +96,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     order.ProductId = model.ProductId;
                     order.CustomerId = model.CustomerId;
                     order.OrderDate = model.OrderDate;
-                    order.OrderShippedDate = model.OrderShippedDate
+                    order.OrderShippedDate = model.OrderShippedDate;
                 }
             }
             catch (Exception ex)

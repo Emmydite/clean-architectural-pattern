@@ -97,7 +97,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     order.CustomerId = model.CustomerId;
                     order.OrderDate = model.OrderDate;
                     order.OrderShippedDate = model.OrderShippedDate;
-                    order.Status = model.Status
+                    order.Status = model.Status;
                 }
             }
             catch (Exception ex)

@@ -100,7 +100,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     order.OrderShippedDate = model.OrderShippedDate;
                     order.Status = model.Status;
 
-                   await _orderService.UpdateOrder(order);
+                  success = await _orderService.UpdateOrder(order);
                 }
             }
             catch (Exception ex)

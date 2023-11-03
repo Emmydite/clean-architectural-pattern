@@ -102,7 +102,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                   success = await _orderService.UpdateOrder(order);
                 }
-                return Ok()
+                return Ok(success)
             }
             catch (Exception ex)
             {

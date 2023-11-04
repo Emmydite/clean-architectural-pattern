@@ -92,6 +92,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 bool success = false;
                 var order = await _orderService.GetOrderById(model.OrderId);
+
                 if (order != null)
                 {
                     order.ProductId = model.ProductId;

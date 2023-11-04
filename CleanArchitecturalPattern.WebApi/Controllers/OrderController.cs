@@ -23,7 +23,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 var order = new Order
                 {
-                    ProductId  = model.ProductId,
+                    ProductId = model.ProductId,
                     CustomerId = model.CustomerId,
                     OrderDate = model.OrderDate,
                     OrderShippedDate = model.OrderShippedDate,
@@ -35,10 +35,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 return CreatedAtAction(nameof(AddOrder), new { Id = order.OrderId }, createOrder);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
-            } 
+            }
         }
 
         [HttpGet]
@@ -50,7 +50,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 return Ok(order);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -65,10 +65,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 return Ok(orders);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
-            } 
+            }
         }
 
         [HttpDelete]
@@ -101,7 +101,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     order.OrderShippedDate = model.OrderShippedDate;
                     order.Status = model.Status;
 
-                  success = await _orderService.UpdateOrder(order);
+                    success = await _orderService.UpdateOrder(order);
                 }
 
                 return Ok(success);

@@ -11,7 +11,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         private readonly IPaymentService paymentService;
         public PaymentController(IPaymentService paymentService)
         {
-
+            
         }
     }
 }

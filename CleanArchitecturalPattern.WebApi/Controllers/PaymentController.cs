@@ -8,6 +8,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class PaymentController : ControllerBase
     {
+        private IPaymentService paymentService;
         public PaymentController()
         {
 

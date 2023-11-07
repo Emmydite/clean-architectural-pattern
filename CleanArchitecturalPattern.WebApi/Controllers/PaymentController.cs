@@ -17,7 +17,14 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult AddPayment(PaymentModel model)
         {
+            try
+            {
 
+            }
+            catch () 
+            { 
+
+            }
         }
     }
 }

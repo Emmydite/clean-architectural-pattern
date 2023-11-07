@@ -14,5 +14,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             _paymentService = paymentService;
         }
+
+        public IActionResult AddPayment()
+        {
+
+        }
     }
 }

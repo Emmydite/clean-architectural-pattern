@@ -2,6 +2,6 @@
 {
     public class PaymentModel
     {
-
+        public Guid CustomerId { get; set; }
     }
 }

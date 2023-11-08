@@ -22,7 +22,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var payment = new Payment
                 {
 
-                }
+                };
             }
             catch (Exception ex) 
             {

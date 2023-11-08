@@ -22,6 +22,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var payment = new Payment
                 {
                     CustomerId = model.CustomerId,
+                    OrderId = model.OrderId,
                 };
             }
             catch (Exception ex) 

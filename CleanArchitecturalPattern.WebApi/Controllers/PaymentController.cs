@@ -19,7 +19,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                var payment = new Payment
+                {
 
+                }
             }
             catch (Exception ex) 
             {

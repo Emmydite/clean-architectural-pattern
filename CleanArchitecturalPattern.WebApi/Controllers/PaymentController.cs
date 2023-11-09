@@ -26,7 +26,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     PaymentDate = model.PaymentDate,
                     Amount = model.Amount,
                 };
-                var createPayment = _paymentService.AddPayment(payment);
+                var createPayment = await _paymentService.AddPayment(payment);
             }
             catch (Exception ex) 
             {

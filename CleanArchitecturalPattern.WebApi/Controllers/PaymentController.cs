@@ -28,6 +28,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 };
 
                 var createPayment = await _paymentService.AddPayment(payment);
+
                 return CreatedAtAction(nameof(AddPayment), new { Id = createPayment }, createPayment);
             }
             catch (Exception ex) 

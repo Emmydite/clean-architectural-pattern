@@ -15,6 +15,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _paymentService = paymentService;
         }
 
+        [HttpPost]
         public async Task<IActionResult> AddPayment(PaymentModel model)
         {
             try

@@ -38,7 +38,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public Task<IActionResult> GetPayment(Guid id)
+        public async Task<IActionResult> GetPayment(Guid id)
         {
             try
             {

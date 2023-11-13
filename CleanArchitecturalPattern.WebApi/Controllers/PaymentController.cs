@@ -43,6 +43,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var payment = await _paymentService.GetPaymentById(id);
+
                 return Ok(payment);
             }
             catch (Exception ex)

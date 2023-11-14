@@ -52,9 +52,13 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult GetPayments() 
-        { 
+        public IActionResult GetPayments()
+        {
+            try
+            {
 
+            }
+            catch () { }
         }
     }
 }

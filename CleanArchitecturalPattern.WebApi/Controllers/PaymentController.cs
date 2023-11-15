@@ -57,7 +57,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var payments = _paymentService.GetAllPayments();
-                return Ok(payments)
+                return Ok(payments);
             }
             catch (Exception ex) 
             {

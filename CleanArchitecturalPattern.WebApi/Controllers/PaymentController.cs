@@ -52,7 +52,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public Task<IActionResult> GetPayments()
+        public async Task<IActionResult> GetPayments()
         {
             try
             {

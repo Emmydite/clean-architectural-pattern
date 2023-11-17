@@ -68,7 +68,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult DeletePayment()
         {
+            try
+            {
 
+            }
+            catch () { }
         }
     }
 }

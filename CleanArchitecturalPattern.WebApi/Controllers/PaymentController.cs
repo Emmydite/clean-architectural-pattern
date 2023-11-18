@@ -69,7 +69,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         }
 
         [HttpDelete]
-        public IActionResult DeletePayment()
+        public IActionResult DeletePayment(Guid id)
         {
             try
             {

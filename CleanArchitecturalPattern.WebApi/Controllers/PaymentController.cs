@@ -68,6 +68,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
+        [HttpDelete]
         public IActionResult DeletePayment()
         {
             try

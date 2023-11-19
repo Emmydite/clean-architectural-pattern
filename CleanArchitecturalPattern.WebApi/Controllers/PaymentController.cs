@@ -73,7 +73,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                _paymentService.DeletePayment(id)
+                _paymentService.DeletePayment(id);
             }
             catch (Exception ex) 
             {

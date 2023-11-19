@@ -74,6 +74,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 _paymentService.DeletePayment(id);
+
                 return Ok();
             }
             catch (Exception ex) 

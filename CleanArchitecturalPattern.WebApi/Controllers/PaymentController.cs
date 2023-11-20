@@ -83,6 +83,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
+        [HttpPut]
         public IActionResult UpdatePayment(PaymentModel model)
         {
             try

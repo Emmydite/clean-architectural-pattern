@@ -85,7 +85,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult UpdatePayment()
         {
+            try
+            {
 
+            }
+            catch () { }
         }
     }
 }

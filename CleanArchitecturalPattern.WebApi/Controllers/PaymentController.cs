@@ -88,7 +88,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                return Ok()
+                return Ok();
             }
             catch (Exception ex) 
             {

@@ -88,7 +88,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var payment = _paymentService.GetPaymentById()
+                var payment = _paymentService.GetPaymentById();
                 return Ok();
             }
             catch (Exception ex) 

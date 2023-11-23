@@ -84,7 +84,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         }
 
         [HttpPut]
-        public Task<IActionResult> UpdatePayment(PaymentModel model)
+        public async Task<IActionResult> UpdatePayment(PaymentModel model)
         {
             try
             {

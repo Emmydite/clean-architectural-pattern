@@ -92,6 +92,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 if (payment != null)
                 {
                    payment.CustomerId = model.CustomerId;
+                    payment.OrderId = model.OrderId;
                 }
                 return Ok();
             }

@@ -93,6 +93,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 {
                    payment.CustomerId = model.CustomerId;
                     payment.OrderId = model.OrderId;
+                    payment.Amount = model.Amount;
                 }
                 return Ok();
             }

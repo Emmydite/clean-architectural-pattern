@@ -95,6 +95,8 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     payment.OrderId = model.OrderId;
                     payment.Amount = model.Amount;
                     payment.PaymentDate = model.PaymentDate;
+
+                    _paymentService.UpdatePayment(payment)
                 }
                 return Ok();
             }

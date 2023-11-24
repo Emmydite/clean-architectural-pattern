@@ -96,7 +96,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     payment.Amount = model.Amount;
                     payment.PaymentDate = model.PaymentDate;
 
-                    _paymentService.UpdatePayment(payment)
+                   await _paymentService.UpdatePayment(payment)
                 }
                 return Ok();
             }

@@ -88,6 +88,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                var success = false
                 var payment = await _paymentService.GetPaymentById(model.PaymentId);
                 if (payment != null)
                 {

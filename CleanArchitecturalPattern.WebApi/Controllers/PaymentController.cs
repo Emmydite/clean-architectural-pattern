@@ -99,7 +99,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                    success = await _paymentService.UpdatePayment(payment);
                 }
-                return Ok();
+                return Ok(success);
             }
             catch (Exception ex) 
             {

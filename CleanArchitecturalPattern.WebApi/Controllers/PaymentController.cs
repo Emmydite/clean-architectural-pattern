@@ -32,7 +32,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 return CreatedAtAction(nameof(AddPayment), new { Id = createPayment }, createPayment);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -62,7 +62,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 return Ok(payments);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -77,7 +77,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 return Ok();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -93,16 +93,16 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
                 if (payment != null)
                 {
-                   payment.CustomerId = model.CustomerId;
+                    payment.CustomerId = model.CustomerId;
                     payment.OrderId = model.OrderId;
                     payment.Amount = model.Amount;
                     payment.PaymentDate = model.PaymentDate;
 
-                   success = await _paymentService.UpdatePayment(payment);
+                    success = await _paymentService.UpdatePayment(payment);
                 }
                 return Ok(success);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }

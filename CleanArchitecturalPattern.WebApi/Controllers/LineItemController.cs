@@ -9,7 +9,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
     [ApiController]
     public class LineItemController : ControllerBase
     {
-        private ILineItemService lineItemService;
+        private readonly ILineItemService lineItemService;
         public LineItemController()
         {
 

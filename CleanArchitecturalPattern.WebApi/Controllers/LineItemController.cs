@@ -12,7 +12,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         private readonly ILineItemService _lineItemService;
         public LineItemController(ILineItemService lineItemService)
         {
-            
+            _lineItemService = lineItemService;
         }
     }
 }

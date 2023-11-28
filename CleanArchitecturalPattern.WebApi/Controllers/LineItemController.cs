@@ -14,5 +14,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             _lineItemService = lineItemService;
         }
+
+        public IActionResult AddLineItem()
+        {
+
+        }
     }
 }

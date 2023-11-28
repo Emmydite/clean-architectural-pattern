@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using CleanArchitecturalPattern.Application.Interfaces.Services;
 using CleanArchitecturalPattern.Domain.Entities;
+using CleanArchitecturalPattern.WebApi.Models;
 
 namespace CleanArchitecturalPattern.WebApi.Controllers
 {
@@ -15,7 +16,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _lineItemService = lineItemService;
         }
 
-        public IActionResult AddLineItem()
+        public IActionResult AddLineItem(LineItemModel model)
         {
             try
             {

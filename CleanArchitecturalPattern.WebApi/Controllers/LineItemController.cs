@@ -17,7 +17,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult AddLineItem()
         {
+            try
+            {
 
+            }
+            catch () { } 
         }
     }
 }

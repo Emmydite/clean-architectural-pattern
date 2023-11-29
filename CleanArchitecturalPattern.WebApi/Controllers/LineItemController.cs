@@ -20,7 +20,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                var lineItem = new LineItem
+                {
 
+                }
             }
             catch (Exception ex) 
             {

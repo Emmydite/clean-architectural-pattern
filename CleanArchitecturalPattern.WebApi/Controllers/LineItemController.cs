@@ -23,6 +23,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var lineItem = new LineItem
                 {
                     OrderId = model.OrderId,
+                    ProductId = model.ProductId,
                 }
             }
             catch (Exception ex) 

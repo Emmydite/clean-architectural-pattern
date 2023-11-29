@@ -22,7 +22,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
                 var lineItem = new LineItem
                 {
-
+                    OrderId = model.OrderId,
                 }
             }
             catch (Exception ex) 

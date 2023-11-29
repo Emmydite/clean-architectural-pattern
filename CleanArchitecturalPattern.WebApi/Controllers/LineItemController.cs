@@ -25,7 +25,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     OrderId = model.OrderId,
                     ProductId = model.ProductId,
                     Quantity = model.Quantity,
-                }
+                };
             }
             catch (Exception ex) 
             {

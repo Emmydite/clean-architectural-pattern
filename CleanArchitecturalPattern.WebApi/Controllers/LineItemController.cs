@@ -27,7 +27,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     Quantity = model.Quantity,
                 };
                 var createLineItem = await _lineItemService.AddLineItem(lineItem);
-                return CreatedAtAction(nameof(AddLineItem), new {Id = createLineItem}, createLineItem)
+                return CreatedAtAction(nameof(AddLineItem), new { Id = createLineItem }, createLineItem);
             }
             catch (Exception ex) 
             {

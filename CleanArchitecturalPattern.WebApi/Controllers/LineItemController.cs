@@ -37,7 +37,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public IActionResult GetLineItem()
+        public IActionResult GetLineItem(Guid id)
         {
 
         }

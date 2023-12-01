@@ -39,7 +39,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetLineItem(Guid id)
         {
+            try
+            {
 
+            }
+            catch () { }
         }
     }
 }

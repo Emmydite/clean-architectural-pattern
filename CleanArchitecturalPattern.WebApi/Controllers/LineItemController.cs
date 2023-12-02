@@ -41,7 +41,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var lineItem = _lineItemService.GetLineItem(id)
+                var lineItem = _lineItemService.GetLineItem(id);
             }
             catch (Exception ex) 
             {

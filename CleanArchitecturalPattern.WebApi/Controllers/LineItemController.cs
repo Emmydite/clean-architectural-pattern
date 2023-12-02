@@ -37,7 +37,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             } 
         }
 
-        public Task<IActionResult> GetLineItem(Guid id)
+        public async Task<IActionResult> GetLineItem(Guid id)
         {
             try
             {

@@ -52,7 +52,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult GetLineItems()
         {
+            try
+            {
 
+            }
+            catch () { }
         }
     }
 }

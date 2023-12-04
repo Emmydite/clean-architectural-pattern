@@ -49,5 +49,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 throw ex;
             }
         }
+
+        public IActionResult GetLineItems()
+        {
+
+        }
     }
 }

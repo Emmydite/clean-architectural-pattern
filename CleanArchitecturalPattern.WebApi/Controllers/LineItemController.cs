@@ -56,7 +56,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
 
             }
-            catch () 
+            catch (Exception ex) 
             {
 
             }

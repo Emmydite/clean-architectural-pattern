@@ -50,7 +50,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult GetLineItems()
+        public Task<IActionResult> GetLineItems()
         {
             try
             {

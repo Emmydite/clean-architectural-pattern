@@ -68,7 +68,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             {
 
             }
-            catch () { }
+            catch () 
+            { 
+
+            }
         }
     }
 }

@@ -64,7 +64,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult DeleteLineItem() 
         {
+            try
+            {
 
+            }
+            catch () { }
         }
     }
 }

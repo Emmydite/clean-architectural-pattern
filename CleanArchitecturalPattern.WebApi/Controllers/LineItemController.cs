@@ -62,7 +62,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult DeleteLineItem() 
+        public IActionResult DeleteLineItem(Guid id) 
         {
             try
             {

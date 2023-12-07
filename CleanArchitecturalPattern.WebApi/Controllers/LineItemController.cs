@@ -66,7 +66,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                _lineItemService.DeleteLineItem(id)
+                _lineItemService.DeleteLineItem(id);
             }
             catch (Exception ex) 
             {

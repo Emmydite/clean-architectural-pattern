@@ -78,7 +78,11 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
 
         public IActionResult UpdateLineItem()
         {
+            try
+            {
 
+            }
+            catch () { } 
         }
     }
 }

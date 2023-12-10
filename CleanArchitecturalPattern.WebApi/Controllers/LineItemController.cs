@@ -76,7 +76,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public IActionResult UpdateLineItem()
+        public Task<IActionResult> UpdateLineItem()
         {
             try
             {

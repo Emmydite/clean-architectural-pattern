@@ -76,7 +76,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
-        public async Task<IActionResult> UpdateLineItem()
+        public async Task<IActionResult> UpdateLineItem(LineItemModel model)
         {
             try
             {

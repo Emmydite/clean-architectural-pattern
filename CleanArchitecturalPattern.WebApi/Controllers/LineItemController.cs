@@ -80,7 +80,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
-                var lineItem = _lineItemService.GetLineItem()
+                var lineItem = _lineItemService.GetLineItem(model.Id)
 
             }
             catch (Exception ex) 

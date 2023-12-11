@@ -86,6 +86,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     lineItem.OrderId = model.OrderId;
                     lineItem.ProductId = model.ProductId;
                     lineItem.Quantity = model.Quantity;
+                    lineItem.TotalPrice();
                 }
                 return Ok();
             }

@@ -83,7 +83,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 var lineItem = await _lineItemService.GetLineItem(model.Id);
                 if (lineItem != null)
                 {
-
+                    lineItem.OrderId = model.OrderId;
                 }
                 return Ok();
             }

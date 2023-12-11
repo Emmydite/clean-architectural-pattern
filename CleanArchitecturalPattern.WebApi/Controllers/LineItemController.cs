@@ -84,6 +84,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                 if (lineItem != null)
                 {
                     lineItem.OrderId = model.OrderId;
+                    lineItem.ProductId = model.ProductId;
                 }
                 return Ok();
             }

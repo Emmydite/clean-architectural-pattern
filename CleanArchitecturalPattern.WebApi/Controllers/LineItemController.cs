@@ -81,6 +81,10 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             try
             {
                 var lineItem = await _lineItemService.GetLineItem(model.Id);
+                if (lineItem != null)
+                {
+
+                }
                 return Ok();
             }
             catch (Exception ex) 

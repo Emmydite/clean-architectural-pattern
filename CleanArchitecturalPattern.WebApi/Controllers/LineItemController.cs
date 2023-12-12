@@ -93,7 +93,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     success = await _lineItemService.UpdateLineItem(lineItem);
                 }
 
-                return Ok();
+                return Ok(success);
             }
             catch (Exception ex) 
             {

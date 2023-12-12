@@ -80,6 +80,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
         {
             try
             {
+                var success = false;
                 var lineItem = await _lineItemService.GetLineItem(model.Id);
                 if (lineItem != null)
                 {

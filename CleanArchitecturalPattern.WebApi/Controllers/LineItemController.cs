@@ -89,7 +89,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     lineItem.Quantity = model.Quantity;
                     lineItem.TotalPrice();
 
-                    success = await _lineItemService.UpdateLineItem(lineItem)
+                    success = await _lineItemService.UpdateLineItem(lineItem);
                 }
                 return Ok();
             }

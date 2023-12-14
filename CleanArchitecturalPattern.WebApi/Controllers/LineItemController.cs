@@ -80,6 +80,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
+        [HttpPut]
         public async Task<IActionResult> UpdateLineItem(LineItemModel model)
         {
             try

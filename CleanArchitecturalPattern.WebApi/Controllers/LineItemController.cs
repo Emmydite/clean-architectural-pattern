@@ -15,6 +15,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             _lineItemService = lineItemService;
         }
 
+        [HttpPost]
         public async Task<IActionResult> AddLineItem(LineItemModel model)
         {
             try

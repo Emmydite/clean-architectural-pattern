@@ -52,6 +52,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetLineItems()
         {
             try

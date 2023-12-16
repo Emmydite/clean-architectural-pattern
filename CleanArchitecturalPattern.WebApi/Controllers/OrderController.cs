@@ -27,8 +27,7 @@ namespace CleanArchitecturalPattern.WebApi.Controllers
                     CustomerId = model.CustomerId,
                     OrderDate = model.OrderDate,
                     OrderShippedDate = model.OrderShippedDate,
-                    Status = model.Status,
-                    Items = model.Items
+                    Status = model.Status
                 };
 
                 var createOrder = _orderService.AddOrder(order);
